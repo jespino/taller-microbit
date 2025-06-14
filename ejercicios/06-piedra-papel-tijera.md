@@ -23,6 +23,8 @@ El micro:bit elegirá al azar entre:
 En "al iniciar", añade:
 - Un bloque "mostrar texto" con "¡AGITA PARA JUGAR!"
 
+![Bloque al iniciar con mensaje bienvenida](../imagenes/06-al-iniciar-mensaje-bienvenida.png)
+
 [PLACEHOLDER: Captura del bloque "al iniciar" con el mensaje de bienvenida]
 
 ## Paso 2: Crear los dibujos
@@ -68,6 +70,8 @@ Primero vamos a diseñar cómo se ve cada opción en los LEDs:
 2. Haz clic en "Crear una variable"
 3. Llámala "elección"
 
+![Cómo crear una variable](../imagenes/06-como-crear-variable.png)
+
 [PLACEHOLDER: Captura de cómo crear una variable]
 
 ### Programar la lógica:
@@ -91,6 +95,8 @@ si no
     mostrar LEDs (tijera)
 ```
 
+![Programa completo piedra papel tijera](../imagenes/06-programa-completo-ppt.png)
+
 [PLACEHOLDER: Captura del programa completo con el bloque "al agitar" y toda la lógica]
 
 ## Paso 4: ¡Prueba tu juego!
@@ -98,6 +104,8 @@ si no
 1. En el simulador, haz clic en "SHAKE"
 2. ¿Aparece una de las tres opciones?
 3. Prueba varias veces para ver que cambia
+
+![Simulador con diferentes resultados](../imagenes/06-simulador-diferentes-resultados.png)
 
 [PLACEHOLDER: Captura del simulador mostrando diferentes resultados]
 
@@ -123,6 +131,8 @@ Cambia el bloque "al agitar" para que primero haga:
 5. Mostrar "1"
 6. Pausa de 1 segundo
 7. ¡Mostrar el resultado!
+
+![Programa mejorado con cuenta atrás](../imagenes/06-programa-mejorado-cuenta-atras.png)
 
 [PLACEHOLDER: Captura del programa mejorado con cuenta atrás]
 

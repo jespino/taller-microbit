@@ -35,6 +35,8 @@ En el bloque "al iniciar", añade un "mostrar LEDs" con esta cara:
 . # # # .
 ```
 
+![Bloque al iniciar con cara normal](../imagenes/03-al-iniciar-cara-normal.png)
+
 [PLACEHOLDER: Captura del bloque "al iniciar" con la cara normal]
 
 ## Paso 2: Detectar cuando agitas el micro:bit
@@ -54,6 +56,8 @@ En el bloque "al iniciar", añade un "mostrar LEDs" con esta cara:
 # . . . #
 ```
 
+![Bloque al agitar con cara mareada](../imagenes/03-al-agitar-cara-mareada.png)
+
 [PLACEHOLDER: Captura del bloque "al agitar" con la cara mareada]
 
 ## Paso 3: Detectar inclinación hacia la izquierda
@@ -72,6 +76,8 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 . . # . .
 ```
 
+![Bloque inclinar izquierda con flecha](../imagenes/03-inclinar-izquierda-flecha.png)
+
 [PLACEHOLDER: Captura del bloque "al inclinar hacia la izquierda" con la flecha]
 
 ## Paso 4: Detectar inclinación hacia la derecha
@@ -89,6 +95,8 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 . . # . .
 ```
 
+![Todos los bloques del acelerómetro](../imagenes/03-todos-bloques-acelerometro.png)
+
 [PLACEHOLDER: Captura de todos los bloques juntos]
 
 ## Paso 5: ¡Prueba tu programa!
@@ -96,6 +104,8 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 1. En el simulador, puedes simular los movimientos:
    - Haz clic en "SHAKE" para simular agitar
    - Haz clic en las flechas alrededor del micro:bit para simular inclinación
+
+![Simulador controles de movimiento](../imagenes/03-simulador-controles-movimiento.png)
 
 [PLACEHOLDER: Captura del simulador mostrando los controles de movimiento]
 
@@ -118,6 +128,8 @@ Puedes añadir más direcciones:
    - Izquierda/derecha: tonos medios
    - Normal: tono suave
 
+![Ejemplo con sonidos añadidos](../imagenes/03-ejemplo-con-sonidos.png)
+
 [PLACEHOLDER: Captura de ejemplo con sonidos añadidos]
 
 ## Experimento divertido: Dados digitales
@@ -128,6 +140,8 @@ Puedes añadir más direcciones:
 2. En lugar de mostrar una cara mareada, usa "mostrar número"
 3. Ve a "Matemáticas" y busca "número al azar entre 1 y 6"
 4. ¡Ahora cada vez que agites aparecerá un número del 1 al 6!
+
+![Programa de dados digital](../imagenes/03-programa-dados-digital.png)
 
 [PLACEHOLDER: Captura del programa de dados con "mostrar número" y "número al azar"]
 

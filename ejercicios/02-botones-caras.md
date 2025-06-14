@@ -15,6 +15,8 @@ El micro:bit tiene dos botones principales:
 - **Botón A**: Está a la izquierda
 - **Botón B**: Está a la derecha
 
+![Botones A y B del micro:bit](../imagenes/02-microbit-botones-ab.png)
+
 [PLACEHOLDER: Imagen del micro:bit real mostrando dónde están los botones A y B]
 
 ## Paso 1: Crear un nuevo proyecto
@@ -38,6 +40,8 @@ Primero, vamos a hacer que aparezca una cara neutral cuando el micro:bit se enci
 . . . . .
 ```
 
+![Bloque mostrar LEDs cara neutral](../imagenes/02-cara-neutral-leds.png)
+
 [PLACEHOLDER: Captura del bloque "mostrar LEDs" con la cara neutral configurada]
 
 ## Paso 3: Programar el botón A (cara feliz)
@@ -57,6 +61,8 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 . # # # .
 ```
 
+![Programa botón A cara feliz](../imagenes/02-boton-a-cara-feliz.png)
+
 [PLACEHOLDER: Captura del programa con el bloque del botón A y la cara feliz]
 
 ## Paso 4: Programar el botón B (cara triste)
@@ -75,6 +81,8 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 # . . . #
 ```
 
+![Programa completo tres bloques](../imagenes/02-programa-completo-botones.png)
+
 [PLACEHOLDER: Captura del programa completo con los tres bloques: al iniciar, botón A y botón B]
 
 ## Paso 5: ¡Prueba tu programa!
@@ -83,6 +91,8 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 2. Haz clic en el botón A del simulador - ¡deberías ver la cara feliz!
 3. Haz clic en el botón B del simulador - ¡deberías ver la cara triste!
 4. Haz clic en el botón de reinicio (el círculo con una flecha) - ¡vuelve la cara neutral!
+
+![Simulador con botones clicables](../imagenes/02-simulador-botones.png)
 
 [PLACEHOLDER: Captura del simulador mostrando cómo hacer clic en los botones]
 
@@ -100,6 +110,8 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 1. Ve a la categoría "Música" (verde)
 2. Arrastra bloques de "reproducir tono" después de cada "mostrar LEDs"
 3. Elige tonos diferentes para cada emoción
+
+![Ejemplo con bloques de música](../imagenes/02-ejemplo-con-musica.png)
 
 [PLACEHOLDER: Captura de ejemplo con bloques de música añadidos]
 

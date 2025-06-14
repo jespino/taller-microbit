@@ -16,6 +16,8 @@ El micro:bit puede "ver" si hay luz o está oscuro usando su **sensor de luz**. 
 - **0 = Muy oscuro** (como de noche)
 - **255 = Muy brillante** (como al sol)
 
+![Sensor de luz del micro:bit](../imagenes/04-sensor-luz-microbit.png)
+
 [PLACEHOLDER: Imagen del micro:bit mostrando dónde está el sensor de luz]
 
 ## Paso 1: Crear el proyecto
@@ -28,6 +30,8 @@ El micro:bit puede "ver" si hay luz o está oscuro usando su **sensor de luz**. 
 2. Crea una variable llamada "modo"
 3. Crea otra llamada "nivel_luz"
 
+![Creando variables para linterna](../imagenes/04-crear-variables-linterna.png)
+
 [PLACEHOLDER: Captura creando las variables]
 
 ## Paso 2: Configuración inicial
@@ -38,6 +42,8 @@ En el bloque "al iniciar":
 2. **Mostrar texto "LINTERNA"**
 3. **Pausa de 1 segundo**
 4. **Mostrar número** de la variable "modo"
+
+![Bloque al iniciar configurado](../imagenes/04-al-iniciar-configurado.png)
 
 [PLACEHOLDER: Captura del bloque "al iniciar" configurado]
 
@@ -71,6 +77,8 @@ si modo = 1 entonces
 # # # # #
 ```
 
+![Bloque para siempre modo automático](../imagenes/04-para-siempre-modo-automatico.png)
+
 [PLACEHOLDER: Captura del bloque "para siempre" con la lógica del modo automático]
 
 ## Paso 4: Cambiar de modo con el botón A
@@ -93,6 +101,8 @@ Los modos serán:
 - **2** = SOS  
 - **3** = Discoteca
 - **4** = Linterna normal
+
+![Botón A cambiar modos](../imagenes/04-boton-a-cambiar-modos.png)
 
 [PLACEHOLDER: Captura del bloque del botón A para cambiar modos]
 
@@ -131,6 +141,8 @@ si no si modo = 2 entonces
     
     pausa 2000 ms
 ```
+
+![Código SOS con repeticiones](../imagenes/04-codigo-sos-repeticiones.png)
 
 [PLACEHOLDER: Captura del código SOS con los bloques de repetición]
 
@@ -175,6 +187,8 @@ si no si modo = 3 entonces
 # # # # #
 ```
 
+![Modo discoteca tres patrones](../imagenes/04-modo-discoteca-patrones.png)
+
 [PLACEHOLDER: Captura del modo discoteca con los tres patrones]
 
 ## Paso 7: Modo linterna normal
@@ -199,6 +213,8 @@ Para el **modo discoteca**, añade diferentes tonos con cada patrón:
 - Patrón 2: `reproducir tono 523 Hz durante 200 ms`  
 - Patrón 3: `reproducir tono 1047 Hz durante 200 ms`
 
+![Programa completo con sonidos](../imagenes/04-programa-completo-sonidos.png)
+
 [PLACEHOLDER: Captura del programa completo con sonidos añadidos]
 
 ## Paso 9: ¡Prueba tu linterna!
@@ -207,6 +223,8 @@ Para el **modo discoteca**, añade diferentes tonos con cada patrón:
 2. **Presiona botón A**: Para cambiar entre modos
 3. **Modo SOS**: ¿Ves el patrón correcto? ···---···
 4. **Modo discoteca**: ¡Debería parecer una fiesta de luces!
+
+![Simulador probando cada modo](../imagenes/04-simulador-probar-modos.png)
 
 [PLACEHOLDER: Captura del simulador mostrando cómo probar cada modo]
 

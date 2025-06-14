@@ -23,6 +23,8 @@ El micro:bit puede producir sonidos usando **frecuencias**. Cada nota musical ti
 
 ¡Es como las cuerdas de una guitarra: más tensas = sonido más agudo!
 
+![Notas musicales y frecuencias](../imagenes/05-notas-musicales-frecuencias.png)
+
 [PLACEHOLDER: Imagen mostrando las notas musicales y sus frecuencias]
 
 ## Paso 1: Crear el proyecto
@@ -36,6 +38,8 @@ El micro:bit puede producir sonidos usando **frecuencias**. Cada nota musical ti
 3. Crea otra llamada "octava"
 4. Crea una más llamada "modo_piano"
 
+![Creando variables del piano](../imagenes/05-crear-variables-piano.png)
+
 [PLACEHOLDER: Captura creando las variables del piano]
 
 ## Paso 2: Configuración inicial
@@ -47,6 +51,8 @@ En el bloque "al iniciar":
 3. **Establecer modo_piano a 1** (modo básico)
 4. **Mostrar ícono de música**
 5. **Reproducir tono 262 Hz durante 500 ms** (Do de bienvenida)
+
+![Bloque al iniciar piano configurado](../imagenes/05-al-iniciar-piano-configurado.png)
 
 [PLACEHOLDER: Captura del bloque "al iniciar" con la configuración]
 
@@ -77,6 +83,8 @@ al presionar botón B
     . . . . #
     . . . . #
 ```
+
+![Botones A y B básicos piano](../imagenes/05-botones-ab-basicos-piano.png)
 
 [PLACEHOLDER: Captura de los bloques de botones A y B básicos]
 
@@ -120,6 +128,8 @@ al agitar
     # # # # #
 ```
 
+![Gestos y notas correspondientes](../imagenes/05-gestos-notas-correspondientes.png)
+
 [PLACEHOLDER: Captura con todos los gestos y sus notas correspondientes]
 
 ## Paso 5: Tocar una canción simple
@@ -152,6 +162,8 @@ al presionar A+B
     mostrar ícono de corazón
 ```
 
+![Melodía de cumpleaños](../imagenes/05-melodia-cumpleanos.png)
+
 [PLACEHOLDER: Captura del bloque A+B con la melodía de cumpleaños]
 
 ## Paso 6: Modo compositor (¡Extra divertido!)
@@ -179,6 +191,8 @@ si modo_piano = 2 entonces
 si no
     reproducir tono [frecuencia] Hz durante 300 ms
 ```
+
+![Sistema de modos con logo](../imagenes/05-sistema-modos-logo.png)
 
 [PLACEHOLDER: Captura del sistema de modos con el logo]
 
@@ -216,6 +230,8 @@ al inclinar hacia atrás
     reproducir tono 523 Hz durante 400 ms  // Do
 ```
 
+![Escalas musicales programadas](../imagenes/05-escalas-musicales-programadas.png)
+
 [PLACEHOLDER: Captura con las escalas musicales programadas]
 
 ## Paso 8: Efectos especiales
@@ -242,6 +258,8 @@ función robot
 
 Puedes llamar a estos efectos cuando presiones ciertos botones en secuencia.
 
+![Efectos especiales piano](../imagenes/05-efectos-especiales-piano.png)
+
 [PLACEHOLDER: Captura de los efectos especiales]
 
 ## Paso 9: ¡Prueba tu piano!
@@ -251,6 +269,8 @@ Puedes llamar a estos efectos cuando presiones ciertos botones en secuencia.
 3. **Inclina el micro:bit**: ¿Suenan Mi y La?
 4. **Agita**: ¿Suena Do agudo?
 5. **Presiona A+B**: ¿Toca "Cumpleaños Feliz"?
+
+![Simulador probando funciones piano](../imagenes/05-simulador-probar-funciones-piano.png)
 
 [PLACEHOLDER: Captura del simulador mostrando cómo probar cada función]
 

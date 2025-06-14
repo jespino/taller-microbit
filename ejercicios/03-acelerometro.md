@@ -37,8 +37,6 @@ En el bloque "al iniciar", añade un "mostrar LEDs" con esta cara:
 
 ![Bloque al iniciar con cara normal](../imagenes/03-al-iniciar-cara-normal.png)
 
-[PLACEHOLDER: Captura del bloque "al iniciar" con la cara normal]
-
 ## Paso 2: Detectar cuando agitas el micro:bit
 
 ¡Vamos a hacer algo divertido cuando agites el micro:bit!
@@ -58,8 +56,6 @@ En el bloque "al iniciar", añade un "mostrar LEDs" con esta cara:
 
 ![Bloque al agitar con cara mareada](../imagenes/03-al-agitar-cara-mareada.png)
 
-[PLACEHOLDER: Captura del bloque "al agitar" con la cara mareada]
-
 ## Paso 3: Detectar inclinación hacia la izquierda
 
 Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
@@ -78,8 +74,6 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
 ![Bloque inclinar izquierda con flecha](../imagenes/03-inclinar-izquierda-flecha.png)
 
-[PLACEHOLDER: Captura del bloque "al inclinar hacia la izquierda" con la flecha]
-
 ## Paso 4: Detectar inclinación hacia la derecha
 
 ¡Lo mismo para la derecha!
@@ -96,8 +90,6 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 ```
 
 ![Todos los bloques del acelerómetro](../imagenes/03-todos-bloques-acelerometro.png)
-
-[PLACEHOLDER: Captura de todos los bloques juntos]
 
 ## Paso 5: ¡Prueba tu programa!
 
@@ -130,8 +122,6 @@ Puedes añadir más direcciones:
 
 ![Ejemplo con sonidos añadidos](../imagenes/03-ejemplo-con-sonidos.png)
 
-[PLACEHOLDER: Captura de ejemplo con sonidos añadidos]
-
 ## Experimento divertido: Dados digitales
 
 ¡Vamos a crear unos dados que funcionen agitando el micro:bit!
@@ -142,8 +132,6 @@ Puedes añadir más direcciones:
 4. ¡Ahora cada vez que agites aparecerá un número del 1 al 6!
 
 ![Programa de dados digital](../imagenes/03-programa-dados-digital.png)
-
-[PLACEHOLDER: Captura del programa de dados con "mostrar número" y "número al azar"]
 
 ## ¿Qué has aprendido?
 

@@ -25,40 +25,7 @@ En "al iniciar", añade:
 
 ![Bloque al iniciar con mensaje bienvenida](../imagenes/06-al-iniciar-mensaje-bienvenida.png)
 
-[PLACEHOLDER: Captura del bloque "al iniciar" con el mensaje de bienvenida]
-
-## Paso 2: Crear los dibujos
-
-Primero vamos a diseñar cómo se ve cada opción en los LEDs:
-
-### Piedra (un círculo sólido):
-```
-. # # # .
-# # # # #
-# # # # #
-# # # # #
-. # # # .
-```
-
-### Papel (un cuadrado):
-```
-# # # # #
-# . . . #
-# . . . #
-# . . . #
-# # # # #
-```
-
-### Tijera (dos líneas cruzadas):
-```
-# . . . #
-. # . # .
-. . # . .
-. # . # .
-# . . . #
-```
-
-## Paso 3: Programar el juego
+## Paso 2: Programar el juego
 
 ¡Ahora viene la parte divertida! Vamos a hacer que al agitar aparezca una opción al azar.
 
@@ -66,13 +33,11 @@ Primero vamos a diseñar cómo se ve cada opción en los LEDs:
 2. Vamos a necesitar una **variable** para guardar la elección
 
 ### Crear una variable:
-1. Ve a la categoría "Variables" (naranja)
+1. Ve a la categoría "Variables"
 2. Haz clic en "Crear una variable"
 3. Llámala "elección"
 
 ![Cómo crear una variable](../imagenes/06-como-crear-variable.png)
-
-[PLACEHOLDER: Captura de cómo crear una variable]
 
 ### Programar la lógica:
 Dentro del bloque "al agitar":
@@ -97,17 +62,13 @@ si no
 
 ![Programa completo piedra papel tijera](../imagenes/06-programa-completo-ppt.png)
 
-[PLACEHOLDER: Captura del programa completo con el bloque "al agitar" y toda la lógica]
-
-## Paso 4: ¡Prueba tu juego!
+## Paso 3: ¡Prueba tu juego!
 
 1. En el simulador, haz clic en "SHAKE"
 2. ¿Aparece una de las tres opciones?
 3. Prueba varias veces para ver que cambia
 
 ![Simulador con diferentes resultados](../imagenes/06-simulador-diferentes-resultados.png)
-
-[PLACEHOLDER: Captura del simulador mostrando diferentes resultados]
 
 ## Mejoras divertidas
 
@@ -131,10 +92,6 @@ Cambia el bloque "al agitar" para que primero haga:
 5. Mostrar "1"
 6. Pausa de 1 segundo
 7. ¡Mostrar el resultado!
-
-![Programa mejorado con cuenta atrás](../imagenes/06-programa-mejorado-cuenta-atras.png)
-
-[PLACEHOLDER: Captura del programa mejorado con cuenta atrás]
 
 ## Versión avanzada: Multijugador
 

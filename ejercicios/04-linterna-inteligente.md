@@ -144,7 +144,7 @@ si no
     mostrar LEDs (todos encendidos)
 ```
 
-![Modo linterna normal](../imagenes/04-modo-siempre-activo.png)
+![Modo linterna normal](../imagenes/04-modo-siempre-encendido.png)
 
 ## Paso 7: ¡Prueba tu linterna!
 

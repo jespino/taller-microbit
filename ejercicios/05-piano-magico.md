@@ -17,10 +17,6 @@ El micro:bit puede hacer música! Cada nota tiene un sonido diferente:
 
 ¡Es como un piano: algunas teclas suenan grave y otras agudo!
 
-![Notas musicales y frecuencias](../imagenes/05-notas-musicales-frecuencias.png)
-
-[PLACEHOLDER: Imagen mostrando las notas musicales y sus frecuencias]
-
 ## Paso 1: Crear el proyecto
 
 1. Crea un nuevo proyecto llamado "Piano Mágico"
@@ -34,8 +30,6 @@ En el bloque "al iniciar":
 2. **Reproducir tono Do durante 1 segundo** (saludo musical)
 
 ![Bloque al iniciar piano configurado](../imagenes/05-al-iniciar-piano-configurado.png)
-
-[PLACEHOLDER: Captura del bloque "al iniciar" con la configuración]
 
 ## Paso 3: Programar las teclas básicas
 
@@ -51,8 +45,6 @@ En el bloque "al iniciar":
 
 ![Botones A y B básicos piano](../imagenes/05-botones-ab-basicos-piano.png)
 
-[PLACEHOLDER: Captura de los bloques de botones A y B básicos]
-
 ## Paso 4: Añadir efectos divertidos
 
 ¡Vamos a hacer que el micro:bit haga sonidos cuando lo mueves!
@@ -62,8 +54,6 @@ En el bloque "al iniciar":
 3. Añade "mostrar ícono" con una cara feliz
 
 ![Gestos y notas correspondientes](../imagenes/05-gestos-notas-correspondientes.png)
-
-[PLACEHOLDER: Captura con todos los gestos y sus notas correspondientes]
 
 ## Paso 5: Tocar una canción simple
 
@@ -82,18 +72,12 @@ En el bloque "al iniciar":
 
 ![Melodía de cumpleaños](../imagenes/05-melodia-cumpleanos.png)
 
-[PLACEHOLDER: Captura del bloque A+B con la melodía de cumpleaños]
-
 ## Paso 6: ¡Prueba tu piano!
 
 1. **Presiona botón A**: ¿Suena Do?
 2. **Presiona botón B**: ¿Suena Sol?
 3. **Agita el micro:bit**: ¿Hace un sonido divertido?
 4. **Presiona A+B**: ¿Toca "Cumpleaños Feliz"?
-
-![Simulador probando funciones piano](../imagenes/05-simulador-probar-funciones-piano.png)
-
-[PLACEHOLDER: Captura del simulador mostrando cómo probar cada función]
 
 ## ¿Qué has aprendido?
 

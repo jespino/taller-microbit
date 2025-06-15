@@ -133,7 +133,7 @@ En "al presionar botón B":
 - Verifica que las condiciones son "elección = 1", "elección = 2", etc.
 
 **🤔 ¿Los dibujos no se ven bien?**
-- Revisa que has clickeado los LEDs correctos en cada "mostrar LEDs"
+- Revisa que has hecho clic en los LEDs correctos en cada "mostrar LEDs"
 
 ## Retos extra
 

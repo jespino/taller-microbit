@@ -15,6 +15,8 @@ El micro:bit tiene dos botones principales:
 - **Botón A**: Está a la izquierda
 - **Botón B**: Está a la derecha
 
+![Botones A y B del micro:bit](../imagenes/02-microbit-botones-ab.png)
+
 ## Paso 1: Crear un nuevo proyecto
 
 1. En MakeCode, haz clic en "Inicio" para volver al menú principal
@@ -46,7 +48,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 ¡Ahora el botón B para la cara triste!
 
 1. De nuevo en "Entrada", arrastra "al presionar el botón A"
-2. Cambia el boton A por el boton B
+2. Cambia el botón A por el botón B
 3. Añade un "mostrar LEDs" dentro
 4. Crea una cara triste:
 
@@ -66,13 +68,13 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 ### Idea 1: Añadir más emociones
 ¿Qué pasa si presionas los dos botones a la vez? ¡Puedes añadir esa opción!
 
-1. Ve a "Entrada" y busca "al presionar el boton A", y cambia A por A+B
+1. Ve a "Entrada" y busca "al presionar el botón A", y cambia A por A+B
 2. Añádelo y crea una cara sorprendida o enfadada
 
 ### Idea 2: Añadir sonidos
 ¡Haz que cada cara tenga su propio sonido!
 
-1. Ve a la categoría "Música" (verde)
+1. Ve a la categoría "Música" (roja)
 2. Arrastra bloques de "reproducir tono" después de cada "mostrar LEDs"
 3. Elige tonos diferentes para cada emoción
 
@@ -88,7 +90,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 ## Problemas comunes
 
 **🤔 ¿No funciona un botón?**
-- Asegúrate de que has selecciónado el boton correcto (por ejemplo, A en lugar de B).
+- Asegúrate de que has seleccionado el botón correcto (por ejemplo, A en lugar de B).
 - Comprueba que el bloque "mostrar LEDs" está dentro del bloque del botón.
 
 **🤔 ¿La cara no se ve bien?**

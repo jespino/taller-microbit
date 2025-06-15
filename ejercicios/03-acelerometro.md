@@ -82,7 +82,7 @@ Puedes añadir más tipos de movimientos:
 
 ¡Haz que cada movimiento tenga su sonido!
 
-1. Ve a "Música" y añade "tono de timbre (Hz) Do medio" después de cada "mostrar LEDs"
+1. Ve a "Música" y añade "tono de timbre (Hz)" después de cada "mostrar LEDs"
 2. Usa tonos diferentes para cada movimiento:
    - Agitar: tono alto y rápido
    - Izquierda/derecha: tonos medios
@@ -117,7 +117,7 @@ Puedes añadir más tipos de movimientos:
 
 **🤔 ¿Las inclinaciones no funcionan bien?**
 - Inclina el micro:bit más claramente hacia un lado
-- En el simulador, asegurate que el micro:bit simulado se inclina para el lado que es.
+- En el simulador, asegúrate que el micro:bit simulado se inclina hacia el lado correcto.
 
 ## Retos extra
 

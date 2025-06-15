@@ -1,4 +1,4 @@
-# Proyecto 1: Introducción a MakeCode
+# Proyecto 1: 📱 Introducción a MakeCode
 
 ## ¿Qué es MakeCode?
 

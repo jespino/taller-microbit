@@ -87,8 +87,8 @@ Los modos serán:
 
 ¡Ahora el modo más divertido! Luces que cambian de patrón rápidamente:
 
-1. Ve a "Básico" y añade un nuevo bloque "por siempre"
-2. Dentro de ese bloque "por siempre" añadimos el siguiente programa
+1. Ve a "Básico" y añade un nuevo bloque "para siempre"
+2. Dentro de ese bloque "para siempre" añadimos el siguiente programa
 
 ```
 si modo = 2 entonces
@@ -106,8 +106,8 @@ si modo = 2 entonces
 
 El más sencillo, siempre encendida:
 
-1. Ve a "Básico" y añade un nuevo bloque "por siempre"
-2. Dentro de ese bloque "por siempre" añadimos el siguiente programa
+1. Ve a "Básico" y añade un nuevo bloque "para siempre"
+2. Dentro de ese bloque "para siempre" añadimos el siguiente programa
 
 ```
 si modo = 3 entonces

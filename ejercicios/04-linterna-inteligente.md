@@ -1,4 +1,4 @@
-# Ejercicio 2: 🔦 Linterna Inteligente
+# Ejercicio 4: 🔦 Linterna Inteligente
 
 ¡Vamos a convertir tu micro:bit en una linterna súper inteligente que se enciende automáticamente cuando está oscuro y tiene modos especiales!
 
@@ -15,10 +15,6 @@ El micro:bit puede "ver" si hay luz o está oscuro usando su **sensor de luz**. 
 - **0 = Muy oscuro** (como de noche)
 - **255 = Muy brillante** (como al sol)
 
-![Sensor de luz del micro:bit](../imagenes/04-sensor-luz-microbit.png)
-
-[PLACEHOLDER: Imagen del micro:bit mostrando dónde está el sensor de luz]
-
 ## Paso 1: Crear el proyecto
 
 1. Crea un nuevo proyecto llamado "Linterna Inteligente"
@@ -27,11 +23,8 @@ El micro:bit puede "ver" si hay luz o está oscuro usando su **sensor de luz**. 
 ### Crear variables:
 1. Ve a "Variables" (naranja)
 2. Crea una variable llamada "modo"
-3. Crea otra llamada "nivel_luz"
 
 ![Creando variables para linterna](../imagenes/04-crear-variables-linterna.png)
-
-[PLACEHOLDER: Captura creando las variables]
 
 ## Paso 2: Configuración inicial
 
@@ -44,28 +37,27 @@ En el bloque "al iniciar":
 
 ![Bloque al iniciar configurado](../imagenes/04-al-iniciar-configurado.png)
 
-[PLACEHOLDER: Captura del bloque "al iniciar" configurado]
-
 ## Paso 3: Programar el modo automático
 
 ¡Aquí viene la magia! Vamos a hacer que la linterna detecte cuando está oscuro.
 
 1. Arrastra un bloque "para siempre" al área de trabajo
-2. Dentro del "para siempre":
-
-### Leer el sensor de luz:
-```
-establecer nivel_luz a nivel de luz
-```
+2. Dentro del "para siempre", programa la lógica automática:
 
 ### Decidir si encender la linterna:
+1. Ve a "Lógica" y arrastra un bloque "si... entonces... si no"
+2. Ve a "Entrada" y busca el bloque "nivel de luz"
+3. Programa esta lógica:
+
 ```
 si modo = 1 entonces
-    si nivel_luz < 100 entonces
+    si nivel de luz < 100 entonces
         mostrar LEDs (todos encendidos)
     si no
         borrar pantalla
 ```
+
+**💡 El bloque "nivel de luz" está en la categoría "Entrada" y te da directamente el valor del sensor.**
 
 **Patrón de LEDs todos encendidos:**
 ```
@@ -77,8 +69,6 @@ si modo = 1 entonces
 ```
 
 ![Bloque para siempre modo automático](../imagenes/04-para-siempre-modo-automatico.png)
-
-[PLACEHOLDER: Captura del bloque "para siempre" con la lógica del modo automático]
 
 ## Paso 4: Cambiar de modo con el botón A
 
@@ -101,8 +91,6 @@ Los modos serán:
 - **3** = Linterna normal
 
 ![Botón A cambiar modos](../imagenes/04-boton-a-cambiar-modos.png)
-
-[PLACEHOLDER: Captura del bloque del botón A para cambiar modos]
 
 ## Paso 5: Modo discoteca
 
@@ -147,8 +135,6 @@ si no si modo = 2 entonces
 
 ![Modo discoteca tres patrones](../imagenes/04-modo-discoteca-patrones.png)
 
-[PLACEHOLDER: Captura del modo discoteca con los tres patrones]
-
 ## Paso 6: Modo linterna normal
 
 El más sencillo, siempre encendida:
@@ -158,15 +144,13 @@ si no
     mostrar LEDs (todos encendidos)
 ```
 
+![Modo linterna normal](../imagenes/04-modo-siempre-activo.png)
+
 ## Paso 7: ¡Prueba tu linterna!
 
 1. **Prueba el modo automático**: Tapa el micro:bit con la mano para simular oscuridad
 2. **Presiona botón A**: Para cambiar entre modos
 3. **Modo discoteca**: ¡Debería parecer una fiesta de luces!
-
-![Simulador probando cada modo](../imagenes/04-simulador-probar-modos.png)
-
-[PLACEHOLDER: Captura del simulador mostrando cómo probar cada modo]
 
 ## Mejoras extra
 

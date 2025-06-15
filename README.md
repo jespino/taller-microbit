@@ -15,7 +15,7 @@ En este taller vas a aprender a:
 - 🎯 Detectar movimiento con el acelerómetro
 - 🎲 Crear tu propio juego de piedra, papel o tijera
 
-## Ejercicios del Taller
+## Proyectos del Taller
 
 ### 1. [Introducción a MakeCode](ejercicios/01-introduccion-makecode.md)
 Aprende a usar la página web donde vamos a programar el micro:bit.
@@ -27,7 +27,7 @@ Aprende a usar los botones para mostrar diferentes caras en la pantalla.
 Haz que tu micro:bit detecte cuando lo mueves o lo agitas.
 
 ### 4. [🔦 Linterna Inteligente](ejercicios/04-linterna-inteligente.md)
-Crea una linterna que se enciende automáticamente y tiene modos especiales como SOS.
+Crea una linterna que se enciende automáticamente y tiene modos especiales.
 
 ### 5. [🎵 Piano Mágico](ejercicios/05-piano-magico.md)
 Convierte tu micro:bit en un piano y toca melodías con botones y gestos.
@@ -43,8 +43,8 @@ Crea tu propio juego que puedes llevar a todas partes.
 
 ## ¿Preparado?
 
-¡Empecemos por el [primer ejercicio](ejercicios/01-introduccion-makecode.md)!
+¡Empecemos por el [primer proyecto](ejercicios/01-introduccion-makecode.md)!
 
 ---
 
-**¡Importante!** Si te quedas atascado en algún ejercicio, no te preocupes. Levanta la mano y pide ayuda. ¡Estamos aquí para ayudarte a convertirte en un programador increíble!
+**¡Importante!** Si te quedas atascado en algún proyecto, no te preocupes. Levanta la mano y pide ayuda. ¡Estamos aquí para ayudarte a convertirte en un programador increíble!

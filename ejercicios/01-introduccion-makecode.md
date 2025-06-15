@@ -1,4 +1,4 @@
-# Ejercicio 1: Introducción a MakeCode
+# Proyecto 1: Introducción a MakeCode
 
 ## ¿Qué es MakeCode?
 
@@ -87,9 +87,9 @@ Aquí es donde arrastras y conectas los bloques para crear tu programa.
 - ✅ Cómo arrastrar y conectar bloques
 - ✅ Tu primer programa: ¡Hola Mundo!
 
-## ¿Preparado para el siguiente ejercicio?
+## ¿Preparado para el siguiente proyecto?
 
-¡Genial! Ahora que ya sabes lo básico, vamos a hacer algo más divertido en el [Ejercicio 2: Botones mágicos](02-botones-caras.md).
+¡Genial! Ahora que ya sabes lo básico, vamos a hacer algo más divertido en el [Proyecto 2: Botones mágicos](02-botones-caras.md).
 
 ---
 

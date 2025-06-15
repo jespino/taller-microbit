@@ -1,6 +1,6 @@
-# Ejercicio 3: ¡En Movimiento! - Usando el Acelerómetro
+# Proyecto 3: 🏃 ¡En Movimiento! - Usando el Acelerómetro
 
-¡El micro:bit tiene un sensor súper chulo que puede detectar cuando lo mueves! Se llama acelerómetro, y en este ejercicio vas a aprender a usarlo.
+¡El micro:bit tiene un sensor súper chulo que puede detectar cuando lo mueves! Se llama acelerómetro, y en este proyecto vas a aprender a usarlo.
 
 ## ¿Qué es un acelerómetro?
 
@@ -69,8 +69,6 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
 ![Simulador controles de movimiento](../imagenes/03-simulador-controles-movimiento.png)
 
-[PLACEHOLDER: Captura del simulador mostrando los controles de movimiento]
-
 ## ¡Vamos a mejorarlo!
 
 ### Añadir más movimientos
@@ -127,9 +125,9 @@ Puedes añadir más tipos de movimientos:
 2. **Alarma de movimiento**: Que suene una alarma cuando detecte movimiento
 3. **Juego de equilibrio**: Que muestre "¡Bien!" solo cuando esté completamente plano
 
-## ¿Preparado para el tu siguiente proyecto?
+## ¿Preparado para tu siguiente proyecto?
 
-¡Increíble! Has dominado los sensores del micro:bit. Ahora vamos a combinar todo lo que sabes para crear una linterna súper inteligente. Ve al [Ejercicio 4: Linterna Inteligente](04-linterna-inteligente.md).
+¡Increíble! Has dominado los sensores del micro:bit. Ahora vamos a combinar todo lo que sabes para crear una linterna súper inteligente. Ve al [Proyecto 4: Linterna Inteligente](04-linterna-inteligente.md).
 
 ---
 

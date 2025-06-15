@@ -1,4 +1,4 @@
-# Ejercicio 4: 🔦 Linterna Inteligente
+# Proyecto 4: 🔦 Linterna Inteligente
 
 ¡Vamos a convertir tu micro:bit en una linterna súper inteligente que se enciende automáticamente cuando está oscuro y tiene modos especiales!
 
@@ -183,7 +183,7 @@ Si la linterna se enciende demasiado o muy poco, cambia el número 100 por:
 
 ## ¿Preparado para más diversión?
 
-¡Genial! Ahora que dominas los sensores y los modos, vamos a hacer música con tu micro:bit en el [Ejercicio 5: Piano Mágico](05-piano-magico.md).
+¡Genial! Ahora que dominas los sensores y los modos, vamos a hacer música con tu micro:bit en el [Proyecto 5: Piano Mágico](05-piano-magico.md).
 
 ---
 

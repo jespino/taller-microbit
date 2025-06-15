@@ -1,6 +1,6 @@
-# Ejercicio 2: Botones Mágicos - Caras Felices y Tristes
+# Proyecto 2: 😊 Botones Mágicos - Caras Felices y Tristes
 
-¡En este ejercicio vas a aprender a usar los botones del micro:bit para mostrar diferentes caras! Es como darle emociones a tu micro:bit.
+¡En este proyecto vas a aprender a usar los botones del micro:bit para mostrar diferentes caras! Es como darle emociones a tu micro:bit.
 
 ## ¿Qué vamos a hacer?
 
@@ -96,7 +96,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 
 ## ¿Preparado para más aventuras?
 
-¡Fantástico! En el siguiente ejercicio vamos a hacer que el micro:bit detecte cuando lo mueves. ¡Ve al [Ejercicio 3: ¡En movimiento!](03-acelerometro.md)!
+¡Fantástico! En el siguiente proyecto vamos a hacer que el micro:bit detecte cuando lo mueves. ¡Ve al [Proyecto 3: ¡En movimiento!](03-acelerometro.md)!
 
 ---
 

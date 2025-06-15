@@ -1,4 +1,4 @@
-# Ejercicio 5: 🎵 Piano Mágico
+# Proyecto 5: 🎵 Piano Mágico
 
 ¡Vamos a convertir tu micro:bit en un piano que puedes tocar con los botones! Podrás crear melodías, tocar canciones conocidas y hasta componer tu propia música.
 
@@ -114,7 +114,7 @@ En el bloque "al iniciar":
 
 ## ¿Preparado para el gran final?
 
-¡Increíble! Has creado tu propio instrumento musical. Ahora vamos al proyecto final más complejo: ¡tu propio juego completo! Ve al [Ejercicio 6: Piedra, Papel o Tijera](06-piedra-papel-tijera.md).
+¡Increíble! Has creado tu propio instrumento musical. Ahora vamos al proyecto final más complejo: ¡tu propio juego completo! Ve al [Proyecto 6: Piedra, Papel o Tijera](06-piedra-papel-tijera.md).
 
 ---
 

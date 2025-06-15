@@ -1,4 +1,4 @@
-# Ejercicio 6: ¡A Jugar! - Piedra, Papel o Tijera
+# Proyecto 6: 🎲 ¡A Jugar! - Piedra, Papel o Tijera
 
 ¡Vamos a crear el juego más famoso del mundo en tu micro:bit! Podrás jugar con tus amigos en cualquier lugar.
 
@@ -144,7 +144,7 @@ En "al presionar botón B":
 
 ## ¡Felicidades!
 
-¡Has completado todos los ejercicios del taller! Ahora tienes un micro:bit que puede:
+¡Has completado todos los proyectos del taller! Ahora tienes un micro:bit que puede:
 - Mostrar mensajes
 - Responder a botones
 - Detectar movimiento
@@ -153,7 +153,7 @@ En "al presionar botón B":
 ### ¿Qué puedes hacer ahora?
 
 - Enseña tus programas a tus amigos y familia
-- Experimenta combinando las ideas de todos los ejercicios
+- Experimenta combinando las ideas de todos los proyectos
 - Investiga qué otros sensores tiene el micro:bit
 - ¡Inventa tus propios juegos y programas!
 

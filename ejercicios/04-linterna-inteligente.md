@@ -6,7 +6,6 @@
 
 Nuestra linterna inteligente tendrá:
 - 🌙 **Modo automático**: Se enciende cuando detecta oscuridad
-- 🆘 **Modo SOS**: Envía señales de socorro en código morse
 - 🕺 **Modo discoteca**: Luces que parpadean al ritmo
 - 🔦 **Modo linterna normal**: Siempre encendida
 
@@ -89,7 +88,7 @@ Vamos a poder cambiar entre diferentes modos:
 2. Programa el cambio de modo:
 
 ```
-si modo = 4 entonces
+si modo = 3 entonces
     establecer modo a 1
 si no
     cambiar modo por 1
@@ -98,60 +97,19 @@ mostrar número modo
 
 Los modos serán:
 - **1** = Automático
-- **2** = SOS  
-- **3** = Discoteca
-- **4** = Linterna normal
+- **2** = Discoteca
+- **3** = Linterna normal
 
 ![Botón A cambiar modos](../imagenes/04-boton-a-cambiar-modos.png)
 
 [PLACEHOLDER: Captura del bloque del botón A para cambiar modos]
 
-## Paso 5: Programar el modo SOS
-
-¡El código SOS es súper importante para emergencias! En morse es: **···---···** (tres puntos, tres rayas, tres puntos)
-
-Añade esta lógica dentro del "para siempre", después del modo 1:
-
-```
-si no si modo = 2 entonces
-    // Tres puntos (cortos)
-    repetir 3 veces
-        mostrar LEDs (todos encendidos)
-        pausa 200 ms
-        borrar pantalla
-        pausa 200 ms
-    
-    pausa 500 ms
-    
-    // Tres rayas (largas)  
-    repetir 3 veces
-        mostrar LEDs (todos encendidos)
-        pausa 600 ms
-        borrar pantalla
-        pausa 200 ms
-    
-    pausa 500 ms
-    
-    // Tres puntos otra vez
-    repetir 3 veces
-        mostrar LEDs (todos encendidos)
-        pausa 200 ms
-        borrar pantalla
-        pausa 200 ms
-    
-    pausa 2000 ms
-```
-
-![Código SOS con repeticiones](../imagenes/04-codigo-sos-repeticiones.png)
-
-[PLACEHOLDER: Captura del código SOS con los bloques de repetición]
-
-## Paso 6: Modo discoteca
+## Paso 5: Modo discoteca
 
 ¡Ahora el modo más divertido! Luces que cambian de patrón rápidamente:
 
 ```
-si no si modo = 3 entonces
+si no si modo = 2 entonces
     mostrar LEDs (patrón 1)
     pausa 200 ms
     mostrar LEDs (patrón 2)
@@ -191,7 +149,7 @@ si no si modo = 3 entonces
 
 [PLACEHOLDER: Captura del modo discoteca con los tres patrones]
 
-## Paso 7: Modo linterna normal
+## Paso 6: Modo linterna normal
 
 El más sencillo, siempre encendida:
 
@@ -200,29 +158,11 @@ si no
     mostrar LEDs (todos encendidos)
 ```
 
-## Paso 8: ¡Añadir sonidos!
-
-¡Vamos a hacer la linterna aún más genial con sonidos!
-
-Para el **modo SOS**, añade sonidos después de cada patrón de luz:
-- Puntos: `reproducir tono 1000 Hz durante 200 ms`
-- Rayas: `reproducir tono 1000 Hz durante 600 ms`
-
-Para el **modo discoteca**, añade diferentes tonos con cada patrón:
-- Patrón 1: `reproducir tono 262 Hz durante 200 ms`
-- Patrón 2: `reproducir tono 523 Hz durante 200 ms`  
-- Patrón 3: `reproducir tono 1047 Hz durante 200 ms`
-
-![Programa completo con sonidos](../imagenes/04-programa-completo-sonidos.png)
-
-[PLACEHOLDER: Captura del programa completo con sonidos añadidos]
-
-## Paso 9: ¡Prueba tu linterna!
+## Paso 7: ¡Prueba tu linterna!
 
 1. **Prueba el modo automático**: Tapa el micro:bit con la mano para simular oscuridad
 2. **Presiona botón A**: Para cambiar entre modos
-3. **Modo SOS**: ¿Ves el patrón correcto? ···---···
-4. **Modo discoteca**: ¡Debería parecer una fiesta de luces!
+3. **Modo discoteca**: ¡Debería parecer una fiesta de luces!
 
 ![Simulador probando cada modo](../imagenes/04-simulador-probar-modos.png)
 
@@ -230,12 +170,12 @@ Para el **modo discoteca**, añade diferentes tonos con cada patrón:
 
 ## Mejoras extra
 
-### Botón B para emergencia
-Añade un "al presionar botón B" que vaya directamente al modo SOS:
+### Botón B para modo discoteca
+Añade un "al presionar botón B" que vaya directamente al modo discoteca:
 
 ```
 establecer modo a 2
-mostrar ícono de corazón
+mostrar ícono de música
 ```
 
 ### Ajustar sensibilidad de luz
@@ -243,14 +183,24 @@ Si la linterna se enciende demasiado o muy poco, cambia el número 100 por:
 - **50** para que sea más sensible (se enciende con poca oscuridad)
 - **150** para que sea menos sensible (solo se enciende cuando esté muy oscuro)
 
+### Añadir sonidos
+¡Haz que cada modo tenga su propio sonido!
+
+1. Ve a la categoría "Música" (verde)
+2. Añade bloques de "reproducir tono" en cada modo:
+   - **Modo automático**: Tono suave cuando se enciende (262 Hz)
+   - **Modo discoteca**: Diferentes tonos con cada patrón
+     - Patrón 1: `reproducir tono 262 Hz durante 200 ms`
+     - Patrón 2: `reproducir tono 523 Hz durante 200 ms`  
+     - Patrón 3: `reproducir tono 1047 Hz durante 200 ms`
+
 ### Modo arcoíris
-¡Añade un quinto modo que cycle entre diferentes patrones de formas!
+¡Añade un cuarto modo que cycle entre diferentes patrones de formas!
 
 ## ¿Qué has aprendido?
 
 - ✅ Cómo usar el sensor de luz del micro:bit
 - ✅ Programación con múltiples modos
-- ✅ Qué es el código morse SOS
 - ✅ Usar bucles "repetir" para patrones
 - ✅ Combinar sensores con lógica condicional
 - ✅ Crear efectos visuales con temporizaciones
@@ -261,9 +211,9 @@ Si la linterna se enciende demasiado o muy poco, cambia el número 100 por:
 - Prueba tapando completamente el micro:bit con las manos
 - Ajusta el valor 100 a un número más alto (como 150)
 
-**🤔 ¿El SOS va muy rápido o muy lento?**
+**🤔 ¿El modo discoteca va muy rápido o muy lento?**
 - Cambia los valores de pausa: más números = más lento
-- El SOS real: puntos 200ms, rayas 600ms
+- Prueba con diferentes velocidades: 100ms, 300ms, 500ms
 
 **🤔 ¿No cambia de modo?**
 - Revisa que la variable "modo" se actualiza correctamente
@@ -274,7 +224,6 @@ Si la linterna se enciende demasiado o muy poco, cambia el número 100 por:
 ¡Tu linterna inteligente puede ser súper útil!
 
 - 🏕️ **Acampada**: Linterna automática que se enciende cuando oscurece
-- 🆘 **Emergencias**: Modo SOS si te pierdes
 - 🎉 **Fiestas**: Modo discoteca para animar el ambiente
 - 🔍 **Exploración**: Linterna normal para buscar cosas
 
@@ -284,4 +233,4 @@ Si la linterna se enciende demasiado o muy poco, cambia el número 100 por:
 
 ---
 
-**💡 Consejo:** El código SOS real se usa en emergencias marítimas y de montaña. ¡Enseña a tus amigos este código, nunca sabes cuándo puede ser útil!
+**💡 Consejo:** El sensor de luz del micro:bit es muy útil. Puedes usarlo para crear muchos proyectos automáticos como luces nocturnas, despertadores con luz natural, o sistemas de seguridad simples.

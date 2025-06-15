@@ -1,4 +1,4 @@
-# Ejercicio 4: ¡A Jugar! - Piedra, Papel o Tijera
+# Ejercicio 6: ¡A Jugar! - Piedra, Papel o Tijera
 
 ¡Vamos a crear el juego más famoso del mundo en tu micro:bit! Podrás jugar con tus amigos en cualquier lugar.
 

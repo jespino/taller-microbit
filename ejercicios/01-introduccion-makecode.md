@@ -40,19 +40,19 @@ MakeCode es una página web súper chula donde puedes programar tu micro:bit sin
 
 ¡Ahora estás en el editor de MakeCode! Vamos a conocer las partes importantes:
 
-### La caja de herramientas (izquierda)
+### El simulador (izquierda)
+¡Es un micro:bit virtual! Aquí puedes ver cómo funciona tu programa antes de enviarlo al micro:bit real.
+
+### La caja de herramientas (centro)
 Aquí están todos los bloques que puedes usar. Están organizados por categorías con diferentes colores:
 - 🔵 **Básico**: Comandos básicos como mostrar texto o imágenes
-- 🔴 **Entrada**: Para usar botones, sensores, etc.
-- 🟢 **Música**: Para hacer sonidos y música
-- 🟡 **LED**: Para controlar las luces
+- 🩷 **Entrada**: Para usar botones, sensores, etc.
+- 🔴 **Música**: Para hacer sonidos y música
+- 🟣 **LED**: Para controlar las luces
 - Y muchos más...
 
-### El área de trabajo (centro)
+### El área de trabajo (derecha)
 Aquí es donde arrastras y conectas los bloques para crear tu programa.
-
-### El simulador (derecha)
-¡Es un micro:bit virtual! Aquí puedes ver cómo funciona tu programa antes de enviarlo al micro:bit real.
 
 ![Interfaz completa de MakeCode](../imagenes/01-interfaz-completa-makecode.png)
 

@@ -15,10 +15,6 @@ El micro:bit tiene dos botones principales:
 - **Botón A**: Está a la izquierda
 - **Botón B**: Está a la derecha
 
-![Botones A y B del micro:bit](../imagenes/02-microbit-botones-ab.png)
-
-[PLACEHOLDER: Imagen del micro:bit real mostrando dónde están los botones A y B]
-
 ## Paso 1: Crear un nuevo proyecto
 
 1. En MakeCode, haz clic en "Inicio" para volver al menú principal
@@ -32,32 +28,16 @@ Primero, vamos a hacer que aparezca una cara neutral cuando el micro:bit se enci
 2. Arrastra el bloque "mostrar LEDs" al bloque "al iniciar"
 3. Haz clic en los cuadraditos para crear una cara neutral:
 
-```
-. . . . .
-. # . # .
-. . . . .
-. # # # .
-. . . . .
-```
-
 ![Bloque mostrar LEDs cara neutral](../imagenes/02-cara-neutral-leds.png)
 
 ## Paso 3: Programar el botón A (cara feliz)
 
 Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 
-1. Ve a la categoría "Entrada" (roja)
+1. Ve a la categoría "Entrada" (rosa)
 2. Arrastra el bloque "al presionar el botón A" al área de trabajo
 3. Ve a la categoría "Básico" y arrastra un "mostrar LEDs" dentro del bloque del botón A
 4. Crea una cara feliz haciendo clic en los LEDs:
-
-```
-. . . . .
-. # . # .
-. . . . .
-# . . . #
-. # # # .
-```
 
 ![Programa botón A cara feliz](../imagenes/02-boton-a-cara-feliz.png)
 
@@ -65,17 +45,10 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 
 ¡Ahora el botón B para la cara triste!
 
-1. De nuevo en "Entrada", arrastra "al presionar el botón B"
-2. Añade un "mostrar LEDs" dentro
-3. Crea una cara triste:
-
-```
-. . . . .
-. # . # .
-. . . . .
-. # # # .
-# . . . #
-```
+1. De nuevo en "Entrada", arrastra "al presionar el botón A"
+2. Cambia el boton A por el boton B
+3. Añade un "mostrar LEDs" dentro
+4. Crea una cara triste:
 
 ![Programa completo tres bloques](../imagenes/02-programa-completo-botones.png)
 
@@ -93,7 +66,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 ### Idea 1: Añadir más emociones
 ¿Qué pasa si presionas los dos botones a la vez? ¡Puedes añadir esa opción!
 
-1. Ve a "Entrada" y busca "al presionar A+B"
+1. Ve a "Entrada" y busca "al presionar el boton A", y cambia A por A+B
 2. Añádelo y crea una cara sorprendida o enfadada
 
 ### Idea 2: Añadir sonidos
@@ -115,12 +88,11 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 ## Problemas comunes
 
 **🤔 ¿No funciona un botón?**
-- Asegúrate de que has arrastrado el bloque correcto ("al presionar el botón A" no "al presionar el botón B")
-- Comprueba que el bloque "mostrar LEDs" está dentro del bloque del botón
+- Asegúrate de que has selecciónado el boton correcto (por ejemplo, A en lugar de B).
+- Comprueba que el bloque "mostrar LEDs" está dentro del bloque del botón.
 
 **🤔 ¿La cara no se ve bien?**
-- Revisa que has hecho clic en los LEDs correctos
-- Los puntos negros (•) son LEDs apagados, los cuadrados (#) son LEDs encendidos
+- Revisa que has hecho clic en los LEDs correctos.
 
 ## ¿Preparado para más aventuras?
 

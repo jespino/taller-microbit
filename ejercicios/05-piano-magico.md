@@ -5,23 +5,17 @@
 ## ¿Qué vamos a hacer?
 
 Nuestro piano mágico tendrá:
-- 🎹 **Botones como teclas**: A y B para tocar notas
-- 🎼 **Diferentes escalas**: Mayor, menor, pentatónica
-- 🎵 **Canciones pregrabadas**: Melodías famosas
-- 🎶 **Modo compositor**: Graba y reproduce tus creaciones
+- 🎹 **Botones como teclas**: A y B para tocar notas diferentes
+- 🎵 **Una canción sencilla**: "Cumpleaños Feliz"
+- 🎶 **Efectos divertidos**: Sonidos cuando inclinas el micro:bit
 
 ## ¿Cómo funciona el sonido en micro:bit?
 
-El micro:bit puede producir sonidos usando **frecuencias**. Cada nota musical tiene una frecuencia diferente:
-- **Do** = 262 Hz
-- **Re** = 294 Hz  
-- **Mi** = 330 Hz
-- **Fa** = 349 Hz
-- **Sol** = 392 Hz
-- **La** = 440 Hz
-- **Si** = 494 Hz
+El micro:bit puede hacer música! Cada nota tiene un sonido diferente:
+- **Do** = sonido grave (bajo)
+- **Sol** = sonido agudo (alto)
 
-¡Es como las cuerdas de una guitarra: más tensas = sonido más agudo!
+¡Es como un piano: algunas teclas suenan grave y otras agudo!
 
 ![Notas musicales y frecuencias](../imagenes/05-notas-musicales-frecuencias.png)
 
@@ -30,27 +24,14 @@ El micro:bit puede producir sonidos usando **frecuencias**. Cada nota musical ti
 ## Paso 1: Crear el proyecto
 
 1. Crea un nuevo proyecto llamado "Piano Mágico"
-2. Vamos a necesitar variables para controlar nuestro piano
-
-### Crear variables:
-1. Ve a "Variables" (naranja)
-2. Crea una variable llamada "nota_actual"
-3. Crea otra llamada "octava"
-4. Crea una más llamada "modo_piano"
-
-![Creando variables del piano](../imagenes/05-crear-variables-piano.png)
-
-[PLACEHOLDER: Captura creando las variables del piano]
+2. ¡Esta vez no necesitamos variables! Vamos directo a la música.
 
 ## Paso 2: Configuración inicial
 
 En el bloque "al iniciar":
 
-1. **Establecer nota_actual a 262** (empezamos en Do)
-2. **Establecer octava a 1** (octava normal)
-3. **Establecer modo_piano a 1** (modo básico)
-4. **Mostrar ícono de música**
-5. **Reproducir tono 262 Hz durante 500 ms** (Do de bienvenida)
+1. **Mostrar ícono de música**
+2. **Reproducir tono Do durante 1 segundo** (saludo musical)
 
 ![Bloque al iniciar piano configurado](../imagenes/05-al-iniciar-piano-configurado.png)
 
@@ -60,73 +41,25 @@ En el bloque "al iniciar":
 
 ¡Vamos a hacer que los botones toquen notas!
 
-### Botón A - Nota Do:
-```
-al presionar botón A
-    reproducir tono 262 Hz durante 300 ms
-    mostrar LEDs:
-    # . . . .
-    # . . . .
-    # . . . .
-    # . . . .
-    # . . . .
-```
+1. Ve a "Entrada" (rosa) y arrastra "al presionar botón A"
+2. Ve a "Música" (rojo) y arrastra "reproducir tono Do durante 1 tiempo"
+3. Ve a "Básico" y arrastra "mostrar ícono" con una nota musical
 
-### Botón B - Nota Sol:
-```
-al presionar botón B
-    reproducir tono 392 Hz durante 300 ms
-    mostrar LEDs:
-    . . . . #
-    . . . . #
-    . . . . #
-    . . . . #
-    . . . . #
-```
+### Para el Botón B:
+1. Igual que el botón A, pero cambia "Do" por "Sol"
+2. Usa un ícono diferente (como un corazón)
 
 ![Botones A y B básicos piano](../imagenes/05-botones-ab-basicos-piano.png)
 
 [PLACEHOLDER: Captura de los bloques de botones A y B básicos]
 
-## Paso 4: Añadir más notas con gestos
+## Paso 4: Añadir efectos divertidos
 
-¡Vamos a usar los gestos para tener más notas!
+¡Vamos a hacer que el micro:bit haga sonidos cuando lo mueves!
 
-### Al inclinar hacia la izquierda - Nota Mi:
-```
-al inclinar hacia la izquierda
-    reproducir tono 330 Hz durante 300 ms
-    mostrar LEDs:
-    # . # . .
-    # . # . .
-    # . # . .
-    # . # . .
-    # . # . .
-```
-
-### Al inclinar hacia la derecha - Nota La:
-```
-al inclinar hacia la derecha
-    reproducir tono 440 Hz durante 300 ms
-    mostrar LEDs:
-    . . # . #
-    . . # . #
-    . . # . #
-    . . # . #
-    . . # . #
-```
-
-### Al agitar - Nota Do aguda:
-```
-al agitar
-    reproducir tono 523 Hz durante 300 ms
-    mostrar LEDs:
-    # # # # #
-    # . . . #
-    # . # . #
-    # . . . #
-    # # # # #
-```
+1. Ve a "Entrada" y arrastra "al agitar"
+2. Añade "reproducir sonido giggle" (o el sonido que más te guste)
+3. Añade "mostrar ícono" con una cara feliz
 
 ![Gestos y notas correspondientes](../imagenes/05-gestos-notas-correspondientes.png)
 
@@ -136,187 +69,64 @@ al agitar
 
 ¡Vamos a programar "Cumpleaños Feliz"!
 
-### Presionar A+B juntos para la canción:
-```
-al presionar A+B
-    mostrar texto "CUMPLEANOS"
-    
-    // "Cum-ple-a-ños fe-liz"
-    reproducir tono 262 Hz durante 400 ms  // Do
-    reproducir tono 262 Hz durante 200 ms  // Do
-    reproducir tono 294 Hz durante 400 ms  // Re
-    reproducir tono 262 Hz durante 400 ms  // Do
-    reproducir tono 349 Hz durante 400 ms  // Fa
-    reproducir tono 330 Hz durante 800 ms  // Mi
-    
-    pausa 200 ms
-    
-    // "Cum-ple-a-ños fe-liz"
-    reproducir tono 262 Hz durante 400 ms  // Do
-    reproducir tono 262 Hz durante 200 ms  // Do
-    reproducir tono 294 Hz durante 400 ms  // Re
-    reproducir tono 262 Hz durante 400 ms  // Do
-    reproducir tono 392 Hz durante 400 ms  // Sol
-    reproducir tono 349 Hz durante 800 ms  // Fa
-    
-    mostrar ícono de corazón
-```
+1. Ve a "Entrada" y arrastra "al presionar A+B"
+2. Añade "mostrar texto" con "CUMPLEANOS"
+3. Ahora añade estos tonos uno después del otro:
+   - Reproducir tono Do durante 1 tiempo
+   - Reproducir tono Do durante 1/2 tiempo  
+   - Reproducir tono Re durante 1 tiempo
+   - Reproducir tono Do durante 1 tiempo
+   - Reproducir tono Fa durante 1 tiempo
+   - Reproducir tono Mi durante 2 tiempos
+4. Añade "mostrar ícono" con un corazón al final
 
 ![Melodía de cumpleaños](../imagenes/05-melodia-cumpleanos.png)
 
 [PLACEHOLDER: Captura del bloque A+B con la melodía de cumpleaños]
 
-## Paso 6: Modo compositor (¡Extra divertido!)
-
-¡Vamos a añadir un modo donde puedes grabar tu propia música!
-
-### Cambiar modo con el logo:
-```
-al tocar el logo
-    si modo_piano = 1 entonces
-        establecer modo_piano a 2
-        mostrar texto "COMPOSITOR"
-    si no
-        establecer modo_piano a 1
-        mostrar texto "PIANO"
-```
-
-### Grabación simple (conceptual):
-En lugar de grabar realmente, podemos hacer que cada nota dure más tiempo cuando estamos en modo compositor:
-
-Modifica los bloques de botones para que incluyan:
-```
-si modo_piano = 2 entonces
-    reproducir tono [frecuencia] Hz durante 600 ms
-si no
-    reproducir tono [frecuencia] Hz durante 300 ms
-```
-
-![Sistema de modos con logo](../imagenes/05-sistema-modos-logo.png)
-
-[PLACEHOLDER: Captura del sistema de modos con el logo]
-
-## Paso 7: Escalas musicales
-
-¡Añadamos diferentes tipos de escalas para sonar más profesional!
-
-### Al inclinar hacia adelante - Escala menor (triste):
-```
-al inclinar hacia adelante
-    mostrar texto "TRISTE"
-    // Escala menor: Do - Re - Mib - Fa - Sol - Lab - Sib
-    reproducir tono 262 Hz durante 300 ms  // Do
-    reproducir tono 294 Hz durante 300 ms  // Re
-    reproducir tono 311 Hz durante 300 ms  // Mib
-    reproducir tono 349 Hz durante 300 ms  // Fa
-    reproducir tono 392 Hz durante 300 ms  // Sol
-    reproducir tono 415 Hz durante 300 ms  // Lab
-    reproducir tono 466 Hz durante 300 ms  // Sib
-    reproducir tono 523 Hz durante 500 ms  // Do
-```
-
-### Al inclinar hacia atrás - Escala alegre:
-```
-al inclinar hacia atrás
-    mostrar texto "ALEGRE"
-    // Escala mayor rápida
-    reproducir tono 262 Hz durante 200 ms  // Do
-    reproducir tono 294 Hz durante 200 ms  // Re
-    reproducir tono 330 Hz durante 200 ms  // Mi
-    reproducir tono 349 Hz durante 200 ms  // Fa
-    reproducir tono 392 Hz durante 200 ms  // Sol
-    reproducir tono 440 Hz durante 200 ms  // La
-    reproducir tono 494 Hz durante 200 ms  // Si
-    reproducir tono 523 Hz durante 400 ms  // Do
-```
-
-![Escalas musicales programadas](../imagenes/05-escalas-musicales-programadas.png)
-
-[PLACEHOLDER: Captura con las escalas musicales programadas]
-
-## Paso 8: Efectos especiales
-
-¡Vamos a añadir algunos efectos geniales!
-
-### Efecto sirena:
-```
-función sirena
-    repetir 5 veces
-        para índice desde 200 hasta 800 paso 50
-            reproducir tono índice Hz durante 50 ms
-        para índice desde 800 hasta 200 paso -50
-            reproducir tono índice Hz durante 50 ms
-```
-
-### Efecto R2-D2:
-```
-función robot
-    repetir 3 veces
-        reproducir tono número al azar entre 400 y 800 Hz durante 100 ms
-        pausa 50 ms
-```
-
-Puedes llamar a estos efectos cuando presiones ciertos botones en secuencia.
-
-![Efectos especiales piano](../imagenes/05-efectos-especiales-piano.png)
-
-[PLACEHOLDER: Captura de los efectos especiales]
-
-## Paso 9: ¡Prueba tu piano!
+## Paso 6: ¡Prueba tu piano!
 
 1. **Presiona botón A**: ¿Suena Do?
 2. **Presiona botón B**: ¿Suena Sol?
-3. **Inclina el micro:bit**: ¿Suenan Mi y La?
-4. **Agita**: ¿Suena Do agudo?
-5. **Presiona A+B**: ¿Toca "Cumpleaños Feliz"?
+3. **Agita el micro:bit**: ¿Hace un sonido divertido?
+4. **Presiona A+B**: ¿Toca "Cumpleaños Feliz"?
 
 ![Simulador probando funciones piano](../imagenes/05-simulador-probar-funciones-piano.png)
 
 [PLACEHOLDER: Captura del simulador mostrando cómo probar cada función]
 
-## Canciones que puedes tocar
-
-### Estrellita (Twinkle Twinkle):
-- Do-Do-Sol-Sol-La-La-Sol
-- Fa-Fa-Mi-Mi-Re-Re-Do
-
-### Mary Had a Little Lamb:
-- Mi-Re-Do-Re-Mi-Mi-Mi
-- Re-Re-Re-Mi-Sol-Sol
-
-### Happy Birthday (ya la programamos):
-- Do-Do-Re-Do-Fa-Mi
-- Do-Do-Re-Do-Sol-Fa
-
 ## ¿Qué has aprendido?
 
-- ✅ Cómo funciona el sonido y las frecuencias
-- ✅ Crear música con programación
-- ✅ Usar múltiples entradas (botones, gestos, logo)
-- ✅ Programar melodías paso a paso
-- ✅ Diferentes escalas musicales
-- ✅ Crear efectos de sonido
+- ✅ Cómo hacer música con el micro:bit
+- ✅ Usar botones para tocar notas
+- ✅ Programar una canción completa
+- ✅ Añadir efectos de sonido divertidos
+
+## Mejoras extra
+
+### Añadir más sonidos
+¡Experimenta con diferentes sonidos!
+
+1. Ve a "Música" y busca "reproducir sonido"
+2. Prueba sonidos como "twinkle", "spring", "mysterious"
+3. Añádelos cuando presiones diferentes botones
+
+### Más notas musicales
+¿Quieres más notas?
+
+1. Usa los gestos de inclinar para tocar "Mi" y "Fa"
+2. Añade "al inclinar hacia la izquierda" con tono Mi
+3. Añade "al inclinar hacia la derecha" con tono Fa
 
 ## Problemas comunes
 
 **🤔 ¿No se oye nada?**
-- Asegúrate de que el volumen del simulador está subido
-- En micro:bit real, el sonido sale por los pines (conecta auriculares o altavoz)
+- Sube el volumen del simulador
+- Comprueba que has puesto los bloques dentro de los eventos
 
-**🤔 ¿Las notas suenan mal?**
-- Revisa que las frecuencias son correctas (262 para Do, 392 para Sol, etc.)
-- Verifica que la duración no sea demasiado corta (mínimo 100 ms)
-
-**🤔 ¿La melodía va muy rápida o lenta?**
-- Cambia los valores de duración en `reproducir tono`
-- Añade pausas entre notas si es necesario
-
-## Retos extra
-
-1. **Compón tu propia canción**: Usa las notas para crear una melodía original
-2. **Añade más octavas**: Multiplica las frecuencias por 2 para octavas altas
-3. **Crea un metrónomo**: Un sonido constante para marcar el tiempo
-4. **Piano de colores**: Cada nota muestra un patrón LED diferente
+**🤔 ¿La canción suena rara?**
+- Asegúrate de que las notas están en el orden correcto
+- Verifica que cada nota tiene su duración
 
 ## ¿Preparado para el gran final?
 

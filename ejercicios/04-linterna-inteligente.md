@@ -21,7 +21,7 @@ El micro:bit puede "ver" si hay luz o está oscuro usando su **sensor de luz**. 
 2. Vamos a empezar con una variable para saber qué modo estamos usando
 
 ### Crear variables:
-1. Ve a "Variables" (naranja)
+1. Ve a "Variables"
 2. Crea una variable llamada "modo"
 
 ![Creando variables para linterna](../imagenes/04-crear-variables-linterna.png)
@@ -31,7 +31,7 @@ El micro:bit puede "ver" si hay luz o está oscuro usando su **sensor de luz**. 
 En el bloque "al iniciar":
 
 1. **Establecer modo a 1** (empezamos en modo automático)
-2. **Mostrar texto "LINTERNA"**
+2. **Mostrar texto "Linterna"**
 3. **Pausa de 1 segundo**
 4. **Mostrar número** de la variable "modo"
 
@@ -41,11 +41,11 @@ En el bloque "al iniciar":
 
 ¡Aquí viene la magia! Vamos a hacer que la linterna detecte cuando está oscuro.
 
-1. Arrastra un bloque "para siempre" al área de trabajo
-2. Dentro del "para siempre", programa la lógica automática:
+Para este caso vamos a usar el bloque "para siempre"
 
 ### Decidir si encender la linterna:
 1. Ve a "Lógica" y arrastra un bloque "si... entonces... si no"
+2. Ponlo dentro del bloque "para siempre"
 2. Ve a "Entrada" y busca el bloque "nivel de luz"
 3. Programa esta lógica:
 
@@ -59,15 +59,6 @@ si modo = 1 entonces
 
 **💡 El bloque "nivel de luz" está en la categoría "Entrada" y te da directamente el valor del sensor.**
 
-**Patrón de LEDs todos encendidos:**
-```
-# # # # #
-# # # # #
-# # # # #
-# # # # #
-# # # # #
-```
-
 ![Bloque para siempre modo automático](../imagenes/04-para-siempre-modo-automatico.png)
 
 ## Paso 4: Cambiar de modo con el botón A
@@ -75,7 +66,7 @@ si modo = 1 entonces
 Vamos a poder cambiar entre diferentes modos:
 
 1. Arrastra "al presionar botón A"
-2. Programa el cambio de modo:
+2. Dentro de ese bloque, programamos el cambio de modo:
 
 ```
 si modo = 3 entonces
@@ -96,8 +87,11 @@ Los modos serán:
 
 ¡Ahora el modo más divertido! Luces que cambian de patrón rápidamente:
 
+1. Ve a "Básico" y añade un nuevo bloque "por siempre"
+2. Dentro de ese bloque "por siempre" añadimos el siguiente programa
+
 ```
-si no si modo = 2 entonces
+si modo = 2 entonces
     mostrar LEDs (patrón 1)
     pausa 200 ms
     mostrar LEDs (patrón 2)
@@ -106,41 +100,17 @@ si no si modo = 2 entonces
     pausa 200 ms
 ```
 
-**Patrón 1 (cruz):**
-```
-. . # . .
-. . # . .
-# # # # #
-. . # . .
-. . # . .
-```
-
-**Patrón 2 (esquinas):**
-```
-# . . . #
-. . . . .
-. . # . .
-. . . . .
-# . . . #
-```
-
-**Patrón 3 (todo encendido):**
-```
-# # # # #
-# # # # #
-# # # # #
-# # # # #
-# # # # #
-```
-
 ![Modo discoteca tres patrones](../imagenes/04-modo-discoteca-patrones.png)
 
 ## Paso 6: Modo linterna normal
 
 El más sencillo, siempre encendida:
 
+1. Ve a "Básico" y añade un nuevo bloque "por siempre"
+2. Dentro de ese bloque "por siempre" añadimos el siguiente programa
+
 ```
-si no
+si modo = 3 entonces
     mostrar LEDs (todos encendidos)
 ```
 
@@ -196,12 +166,12 @@ Si la linterna se enciende demasiado o muy poco, cambia el número 100 por:
 - Ajusta el valor 100 a un número más alto (como 150)
 
 **🤔 ¿El modo discoteca va muy rápido o muy lento?**
-- Cambia los valores de pausa: más números = más lento
+- Cambia los valores de pausa: números más altos = más lento
 - Prueba con diferentes velocidades: 100ms, 300ms, 500ms
 
 **🤔 ¿No cambia de modo?**
 - Revisa que la variable "modo" se actualiza correctamente
-- Asegúrate de que los números en las condiciones son correctos (1, 2, 3, 4)
+- Asegúrate de que los números en las condiciones son correctos (1, 2, 3)
 
 ## Usos reales
 

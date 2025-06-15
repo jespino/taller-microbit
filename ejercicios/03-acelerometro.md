@@ -15,7 +15,7 @@ Un acelerómetro es como un sensor mágico que puede detectar:
 ## ¿Qué vamos a hacer?
 
 Vamos a crear un programa que:
-1. **Al agitar** el micro:bit: muestre una cara mareada
+1. **Al agitar** el micro:bit: muestre una X 
 2. **Al inclinar hacia la izquierda**: muestre una flecha hacia la izquierda
 3. **Al inclinar hacia la derecha**: muestre una flecha hacia la derecha
 4. **Normalmente**: muestre una cara normal
@@ -24,16 +24,9 @@ Vamos a crear un programa que:
 
 1. Crea un nuevo proyecto llamado "Detector de movimiento"
 2. Primero vamos a poner una cara normal al empezar
+3. Esta vez usaremos "mostrar ícono" en lugar de "mostrar LEDs"
 
-En el bloque "al iniciar", añade un "mostrar LEDs" con esta cara:
-
-```
-. . . . .
-. # . # .
-. . . . .
-# . . . #
-. # # # .
-```
+En el bloque "al iniciar", añade un "mostrar ícono" con esta cara:
 
 ![Bloque al iniciar con cara normal](../imagenes/03-al-iniciar-cara-normal.png)
 
@@ -41,36 +34,21 @@ En el bloque "al iniciar", añade un "mostrar LEDs" con esta cara:
 
 ¡Vamos a hacer algo divertido cuando agites el micro:bit!
 
-1. Ve a la categoría "Entrada" (roja)
-2. Busca el bloque "al agitar"
+1. Ve a la categoría "Entrada" (rosa)
+2. Busca el bloque "si agitado"
 3. Arrástralo al área de trabajo
-4. Dentro, pon un "mostrar LEDs" con una cara mareada:
+4. Dentro, pon un "mostrar ícono" con una X:
 
-```
-# . . . #
-. # . # .
-. . # . .
-. # . # .
-# . . . #
-```
-
-![Bloque al agitar con cara mareada](../imagenes/03-al-agitar-cara-mareada.png)
+![Bloque al agitar con X](../imagenes/03-al-agitar-cara-mareada.png)
 
 ## Paso 3: Detectar inclinación hacia la izquierda
 
 Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
-1. En "Entrada", busca "al inclinar hacia la izquierda"
+1. En "Entrada", busca "si agitado"
 2. Arrástralo al área de trabajo
+3. Cambiar "agitado" por "inclinación hacia la izquierda"
 3. Añade un "mostrar LEDs" con una flecha hacia la izquierda:
-
-```
-. . # . .
-. # # . .
-# # # # #
-. # # . .
-. . # . .
-```
 
 ![Bloque inclinar izquierda con flecha](../imagenes/03-inclinar-izquierda-flecha.png)
 
@@ -78,16 +56,8 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
 ¡Lo mismo para la derecha!
 
-1. Añade "al inclinar hacia la derecha"
+1. Añade "si inclinación hacia la derecha"
 2. Pon una flecha hacia la derecha:
-
-```
-. . # . .
-. . # # .
-# # # # #
-. . # # .
-. . # . .
-```
 
 ![Todos los bloques del acelerómetro](../imagenes/03-todos-bloques-acelerometro.png)
 
@@ -95,7 +65,7 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
 1. En el simulador, puedes simular los movimientos:
    - Haz clic en "SHAKE" para simular agitar
-   - Haz clic en las flechas alrededor del micro:bit para simular inclinación
+   - Mueve el raton donde está el simulador micro:bit para simular inclinación
 
 ![Simulador controles de movimiento](../imagenes/03-simulador-controles-movimiento.png)
 
@@ -103,18 +73,18 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
 ## ¡Vamos a mejorarlo!
 
-### Añadir más direcciones
+### Añadir más movimientos
 
-Puedes añadir más direcciones:
-- "al inclinar hacia adelante"
-- "al inclinar hacia atrás"
-- "al poner con la pantalla hacia abajo"
+Puedes añadir más tipos de movimientos:
+- "si pantalla hacia arriba"
+- "si pantalla hacia abajo"
+- "si caída libre"
 
 ### Añadir sonidos
 
 ¡Haz que cada movimiento tenga su sonido!
 
-1. Ve a "Música" y añade "reproducir tono" después de cada "mostrar LEDs"
+1. Ve a "Música" y añade "tono de timbre (Hz) Do medio" después de cada "mostrar LEDs"
 2. Usa tonos diferentes para cada movimiento:
    - Agitar: tono alto y rápido
    - Izquierda/derecha: tonos medios
@@ -149,7 +119,7 @@ Puedes añadir más direcciones:
 
 **🤔 ¿Las inclinaciones no funcionan bien?**
 - Inclina el micro:bit más claramente hacia un lado
-- En el simulador, haz clic bien en las flechas de dirección
+- En el simulador, asegurate que el micro:bit simulado se inclina para el lado que es.
 
 ## Retos extra
 
@@ -157,7 +127,7 @@ Puedes añadir más direcciones:
 2. **Alarma de movimiento**: Que suene una alarma cuando detecte movimiento
 3. **Juego de equilibrio**: Que muestre "¡Bien!" solo cuando esté completamente plano
 
-## ¿Preparado para el proyecto final?
+## ¿Preparado para el tu siguiente proyecto?
 
 ¡Increíble! Has dominado los sensores del micro:bit. Ahora vamos a combinar todo lo que sabes para crear una linterna súper inteligente. Ve al [Ejercicio 4: Linterna Inteligente](04-linterna-inteligente.md).
 

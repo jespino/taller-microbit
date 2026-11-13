@@ -7,17 +7,21 @@
 - **Formato**: Tutorial práctico con ejercicios
 
 ## Estructura del Repositorio
+El taller se construye con `wsbuilder`. Lee `AGENTS.md` para la sintaxis, los comandos y las reglas.
 ```
 taller-microbit/
-├── README.md              # Introducción principal al taller
-├── ejercicios/            # Ejercicios paso a paso
+├── workshop.yaml          # Título, autor, datos de la portada, textos de la interfaz
+├── AGENTS.md              # Instrucciones de wsbuilder para agentes
+├── modules/
+│   ├── index.md           # Texto de la página de inicio
 │   ├── 01-introduccion-makecode.md
-│   ├── 02-hola-mundo.md
-│   ├── 03-botones-caras.md
-│   ├── 04-acelerometro.md
-│   └── 05-piedra-papel-tijera.md
-├── imagenes/              # Capturas de pantalla y recursos visuales
-└── recursos/              # Archivos adicionales y plantillas
+│   ├── 02-botones-caras.md
+│   ├── 03-acelerometro.md
+│   ├── 04-linterna-inteligente.md
+│   ├── 05-piano-magico.md
+│   ├── 06-piedra-papel-tijera.md
+│   └── images/            # Capturas de pantalla y recursos visuales
+└── dist/                  # Web generada (no editar, no se versiona)
 ```
 
 ## Objetivos de Aprendizaje
@@ -38,11 +42,10 @@ taller-microbit/
 - micro:bit (físico u opcional para simulación)
 - Cable USB (si se usa micro:bit físico)
 
-## Exportación a PDF
-Para generar un PDF del taller completo:
-1. Usar herramientas como Pandoc: `pandoc *.md -o taller-microbit.pdf`
-2. Alternativamente, usar herramientas online como GitBook o similar
-3. Asegurar que las imágenes están correctamente enlazadas
+## Publicación
+- `wsbuilder watch` para escribir con recarga en vivo
+- `wsbuilder check` al terminar cualquier cambio, y corregir errores y avisos
+- Cada push a `main` publica la web en GitHub Pages (`.github/workflows/deploy.yml`)
 
 ## Notas para el Instructor
 - Revisar que todas las capturas de pantalla estén actualizadas
@@ -54,4 +57,4 @@ Para generar un PDF del taller completo:
 Todos los placeholders de imágenes siguen el formato:
 `[PLACEHOLDER: Descripción de la captura de pantalla needed]`
 
-Las imágenes deben guardarse en la carpeta `imagenes/` con nombres descriptivos.
+Las imágenes deben guardarse en la carpeta `modules/images/` con nombres descriptivos.

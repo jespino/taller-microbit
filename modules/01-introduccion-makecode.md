@@ -1,4 +1,10 @@
-# Proyecto 1: 📱 Introducción a MakeCode
+---
+description: Conoce la página web donde vamos a programar el micro:bit y crea tu primer «¡Hola mundo!».
+part: Primeros pasos
+duration: 20 min
+---
+
+# 📱 Introducción a MakeCode
 
 ## ¿Qué es MakeCode?
 
@@ -10,7 +16,7 @@ MakeCode es una página web súper chula donde puedes programar tu micro:bit sin
 2. Ve a la dirección: **makecode.microbit.org**
 3. ¡Ya estás en MakeCode!
 
-![Página principal de MakeCode](../imagenes/01-makecode-pagina-principal.png)
+![Página principal de MakeCode](images/01-makecode-pagina-principal.png)
 
 ## Paso 2: Cambiar el idioma a español
 
@@ -22,11 +28,11 @@ MakeCode es una página web súper chula donde puedes programar tu micro:bit sin
 4. Selecciona "Español"
 5. La página se recargará en español
 
-![Menú de configuración de idioma](../imagenes/01-menu-configuracion-idioma.png)
+![Menú de configuración de idioma](images/01-menu-configuracion-idioma.png)
 
-![Selección de idioma](../imagenes/01-menu-configuracion-idioma-2.png)
+![Selección de idioma](images/01-menu-configuracion-idioma-2.png)
 
-![MakeCode en español](../imagenes/01-makecode-espanol.png)
+![MakeCode en español](images/01-makecode-espanol.png)
 
 ## Paso 3: Crear tu primer proyecto
 
@@ -34,7 +40,7 @@ MakeCode es una página web súper chula donde puedes programar tu micro:bit sin
 2. Dale un nombre a tu proyecto, por ejemplo: "Mi primer programa"
 3. Haz clic en "Crear"
 
-![Diálogo crear nuevo proyecto](../imagenes/01-crear-nuevo-proyecto.png)
+![Diálogo crear nuevo proyecto](images/01-crear-nuevo-proyecto.png)
 
 ## Paso 4: Conoce la interfaz
 
@@ -54,7 +60,7 @@ Aquí están todos los bloques que puedes usar. Están organizados por categorí
 ### El área de trabajo (derecha)
 Aquí es donde arrastras y conectas los bloques para crear tu programa.
 
-![Interfaz completa de MakeCode](../imagenes/01-interfaz-completa-makecode.png)
+![Interfaz completa de MakeCode](images/01-interfaz-completa-makecode.png)
 
 ## Tu Primer "Hola Mundo"
 
@@ -66,14 +72,14 @@ Aquí es donde arrastras y conectas los bloques para crear tu programa.
 3. Arrástralo al área de trabajo
 4. Conéctalo dentro del bloque "al iniciar" que ya está ahí
 
-![Arrastrando bloque mostrar texto](../imagenes/01-arrastrar-bloque-texto.png)
+![Arrastrando bloque mostrar texto](images/01-arrastrar-bloque-texto.png)
 
 ### Paso 2: Escribir tu mensaje
 1. Haz clic en el texto que dice "Hello!" dentro del bloque
 2. Bórralo y escribe "¡Hola mundo!"
 3. ¡Mira el simulador! Ya puedes ver tu mensaje corriendo en la pantalla del micro:bit virtual
 
-![Programa Hola Mundo completo](../imagenes/01-hola-mundo-completo.png)
+![Programa Hola Mundo completo](images/01-hola-mundo-completo.png)
 
 ### Paso 3: Probar tu programa
 ¡Felicidades! Has creado tu primer programa. En el simulador puedes ver cómo las letras van apareciendo una por una en la pantalla del micro:bit.
@@ -93,4 +99,5 @@ Aquí es donde arrastras y conectas los bloques para crear tu programa.
 
 ---
 
-**💡 Consejo:** Si quieres experimentar, prueba a cambiar el texto por tu nombre o por otro mensaje. ¡La programación es más divertida cuando experimentas!
+> [!TIP]
+> Si quieres experimentar, prueba a cambiar el texto por tu nombre o por otro mensaje. ¡La programación es más divertida cuando experimentas!

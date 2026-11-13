@@ -1,4 +1,10 @@
-# Proyecto 5: 🎵 Piano Mágico
+---
+description: Convierte tu micro:bit en un piano y toca melodías con botones y gestos.
+part: Música y juegos
+duration: 25 min
+---
+
+# 🎵 Piano Mágico
 
 ¡Vamos a convertir tu micro:bit en un piano que puedes tocar con los botones! Podrás crear melodías, tocar canciones conocidas y hasta componer tu propia música.
 
@@ -29,7 +35,7 @@ En el bloque "al iniciar":
 1. **Mostrar ícono de música**
 2. **Reproducir tono Do durante 1 segundo** (saludo musical)
 
-![Bloque al iniciar piano configurado](../imagenes/05-al-iniciar-piano-configurado.png)
+![Bloque al iniciar piano configurado](images/05-al-iniciar-piano-configurado.png)
 
 ## Paso 3: Programar las teclas básicas
 
@@ -43,7 +49,7 @@ En el bloque "al iniciar":
 1. Igual que el botón A, pero cambia "Do" por "Sol"
 2. Usa un ícono diferente (como un corazón)
 
-![Botones A y B básicos piano](../imagenes/05-botones-ab-basicos-piano.png)
+![Botones A y B básicos piano](images/05-botones-ab-basicos-piano.png)
 
 ## Paso 4: Añadir efectos divertidos
 
@@ -53,7 +59,7 @@ En el bloque "al iniciar":
 2. Añade "reproducir sonido giggle" (o el sonido que más te guste)
 3. Añade "mostrar ícono" con una cara feliz
 
-![Gestos y notas correspondientes](../imagenes/05-gestos-notas-correspondientes.png)
+![Gestos y notas correspondientes](images/05-gestos-notas-correspondientes.png)
 
 ## Paso 5: Tocar una canción simple
 
@@ -70,7 +76,7 @@ En el bloque "al iniciar":
    - Reproducir tono Mi durante 2 tiempos
 4. Añade "mostrar ícono" con un corazón al final
 
-![Melodía de cumpleaños](../imagenes/05-melodia-cumpleanos.png)
+![Melodía de cumpleaños](images/05-melodia-cumpleanos.png)
 
 ## Paso 6: ¡Prueba tu piano!
 
@@ -104,13 +110,13 @@ En el bloque "al iniciar":
 
 ## Problemas comunes
 
-**🤔 ¿No se oye nada?**
-- Sube el volumen del simulador
-- Comprueba que has puesto los bloques dentro de los eventos
+> [!HINT] 🤔 ¿No se oye nada?
+> - Sube el volumen del simulador
+> - Comprueba que has puesto los bloques dentro de los eventos
 
-**🤔 ¿La canción suena rara?**
-- Asegúrate de que las notas están en el orden correcto
-- Verifica que cada nota tiene su duración
+> [!HINT] 🤔 ¿La canción suena rara?
+> - Asegúrate de que las notas están en el orden correcto
+> - Verifica que cada nota tiene su duración
 
 ## ¿Preparado para el gran final?
 
@@ -118,4 +124,5 @@ En el bloque "al iniciar":
 
 ---
 
-**💡 Consejo musical:** Las mejores melodías combinan notas altas y bajas. ¡Experimenta con diferentes combinaciones y encuentra tu estilo único!
+> [!TIP]
+> Las mejores melodías combinan notas altas y bajas. ¡Experimenta con diferentes combinaciones y encuentra tu estilo único!

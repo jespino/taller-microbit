@@ -1,4 +1,10 @@
-# Proyecto 3: 🏃 ¡En Movimiento! - Usando el Acelerómetro
+---
+description: Haz que tu micro:bit detecte cuando lo agitas o lo inclinas.
+part: Sensores
+duration: 25 min
+---
+
+# 🏃 ¡En Movimiento! - Usando el Acelerómetro
 
 ¡El micro:bit tiene un sensor súper chulo que puede detectar cuando lo mueves! Se llama acelerómetro, y en este proyecto vas a aprender a usarlo.
 
@@ -28,7 +34,7 @@ Vamos a crear un programa que:
 
 En el bloque "al iniciar", añade un "mostrar ícono" con esta cara:
 
-![Bloque al iniciar con cara normal](../imagenes/03-al-iniciar-cara-normal.png)
+![Bloque al iniciar con cara normal](images/03-al-iniciar-cara-normal.png)
 
 ## Paso 2: Detectar cuando agitas el micro:bit
 
@@ -39,7 +45,7 @@ En el bloque "al iniciar", añade un "mostrar ícono" con esta cara:
 3. Arrástralo al área de trabajo
 4. Dentro, pon un "mostrar ícono" con una X:
 
-![Bloque al agitar con X](../imagenes/03-al-agitar-cara-mareada.png)
+![Bloque al agitar con X](images/03-al-agitar-cara-mareada.png)
 
 ## Paso 3: Detectar inclinación hacia la izquierda
 
@@ -47,10 +53,10 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 
 1. En "Entrada", busca "si agitado"
 2. Arrástralo al área de trabajo
-3. Cambiar "agitado" por "inclinación hacia la izquierda"
-3. Añade un "mostrar LEDs" con una flecha hacia la izquierda:
+3. Cambia "agitado" por "inclinación hacia la izquierda"
+4. Añade un "mostrar LEDs" con una flecha hacia la izquierda:
 
-![Bloque inclinar izquierda con flecha](../imagenes/03-inclinar-izquierda-flecha.png)
+![Bloque inclinar izquierda con flecha](images/03-inclinar-izquierda-flecha.png)
 
 ## Paso 4: Detectar inclinación hacia la derecha
 
@@ -59,7 +65,7 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
 1. Añade "si inclinación hacia la derecha"
 2. Pon una flecha hacia la derecha:
 
-![Todos los bloques del acelerómetro](../imagenes/03-todos-bloques-acelerometro.png)
+![Todos los bloques del acelerómetro](images/03-todos-bloques-acelerometro.png)
 
 ## Paso 5: ¡Prueba tu programa!
 
@@ -67,7 +73,7 @@ Ahora vamos a hacer que aparezca una flecha cuando inclines el micro:bit.
    - Haz clic en "SHAKE" para simular agitar
    - Mueve el raton donde está el simulador micro:bit para simular inclinación
 
-![Simulador controles de movimiento](../imagenes/03-simulador-controles-movimiento.png)
+![Simulador controles de movimiento](images/03-simulador-controles-movimiento.png)
 
 ## ¡Vamos a mejorarlo!
 
@@ -88,7 +94,7 @@ Puedes añadir más tipos de movimientos:
    - Izquierda/derecha: tonos medios
    - Normal: tono suave
 
-![Ejemplo con sonidos añadidos](../imagenes/03-ejemplo-con-sonidos.png)
+![Ejemplo con sonidos añadidos](images/03-ejemplo-con-sonidos.png)
 
 ## Experimento divertido: Dados digitales
 
@@ -99,7 +105,7 @@ Puedes añadir más tipos de movimientos:
 3. Ve a "Matemáticas" y busca "número al azar entre 1 y 6"
 4. ¡Ahora cada vez que agites aparecerá un número del 1 al 6!
 
-![Programa de dados digital](../imagenes/03-programa-dados-digital.png)
+![Programa de dados digital](images/03-programa-dados-digital.png)
 
 ## ¿Qué has aprendido?
 
@@ -111,13 +117,13 @@ Puedes añadir más tipos de movimientos:
 
 ## Problemas comunes
 
-**🤔 ¿No funciona al agitar?**
-- En el simulador, asegúrate de hacer clic en "SHAKE"
-- Si usas un micro:bit real, agítalo con más fuerza (¡pero con cuidado!)
+> [!HINT] 🤔 ¿No funciona al agitar?
+> - En el simulador, asegúrate de hacer clic en "SHAKE"
+> - Si usas un micro:bit real, agítalo con más fuerza (¡pero con cuidado!)
 
-**🤔 ¿Las inclinaciones no funcionan bien?**
-- Inclina el micro:bit más claramente hacia un lado
-- En el simulador, asegúrate que el micro:bit simulado se inclina hacia el lado correcto.
+> [!HINT] 🤔 ¿Las inclinaciones no funcionan bien?
+> - Inclina el micro:bit más claramente hacia un lado
+> - En el simulador, asegúrate que el micro:bit simulado se inclina hacia el lado correcto.
 
 ## Retos extra
 
@@ -131,4 +137,5 @@ Puedes añadir más tipos de movimientos:
 
 ---
 
-**💡 Consejo:** El acelerómetro es muy sensible. Si tu programa reacciona demasiado, intenta movimientos más suaves. ¡Y si no reacciona suficiente, muévelo con más decisión!
+> [!TIP]
+> El acelerómetro es muy sensible. Si tu programa reacciona demasiado, intenta movimientos más suaves. ¡Y si no reacciona suficiente, muévelo con más decisión!

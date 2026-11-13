@@ -1,4 +1,10 @@
-# Proyecto 2: 😊 Botones Mágicos - Caras Felices y Tristes
+---
+description: Usa los botones A y B para mostrar caras felices y tristes en la pantalla de luces.
+part: Primeros pasos
+duration: 20 min
+---
+
+# 😊 Botones Mágicos - Caras Felices y Tristes
 
 ¡En este proyecto vas a aprender a usar los botones del micro:bit para mostrar diferentes caras! Es como darle emociones a tu micro:bit.
 
@@ -15,7 +21,7 @@ El micro:bit tiene dos botones principales:
 - **Botón A**: Está a la izquierda
 - **Botón B**: Está a la derecha
 
-![Botones A y B del micro:bit](../imagenes/02-microbit-botones-ab.png)
+![Botones A y B del micro:bit](images/02-microbit-botones-ab.png)
 
 ## Paso 1: Crear un nuevo proyecto
 
@@ -30,7 +36,7 @@ Primero, vamos a hacer que aparezca una cara neutral cuando el micro:bit se enci
 2. Arrastra el bloque "mostrar LEDs" al bloque "al iniciar"
 3. Haz clic en los cuadraditos para crear una cara neutral:
 
-![Bloque mostrar LEDs cara neutral](../imagenes/02-cara-neutral-leds.png)
+![Bloque mostrar LEDs cara neutral](images/02-cara-neutral-leds.png)
 
 ## Paso 3: Programar el botón A (cara feliz)
 
@@ -41,7 +47,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 3. Ve a la categoría "Básico" y arrastra un "mostrar LEDs" dentro del bloque del botón A
 4. Crea una cara feliz haciendo clic en los LEDs:
 
-![Programa botón A cara feliz](../imagenes/02-boton-a-cara-feliz.png)
+![Programa botón A cara feliz](images/02-boton-a-cara-feliz.png)
 
 ## Paso 4: Programar el botón B (cara triste)
 
@@ -52,7 +58,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 3. Añade un "mostrar LEDs" dentro
 4. Crea una cara triste:
 
-![Programa completo tres bloques](../imagenes/02-programa-completo-botones.png)
+![Programa completo tres bloques](images/02-programa-completo-botones.png)
 
 ## Paso 5: ¡Prueba tu programa!
 
@@ -61,7 +67,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 3. Haz clic en el botón B del simulador - ¡deberías ver la cara triste!
 4. Haz clic en el botón de reinicio (el círculo con una flecha) - ¡vuelve la cara neutral!
 
-![Simulador con botones clicables](../imagenes/02-simulador-botones.png)
+![Simulador con botones clicables](images/02-simulador-botones.png)
 
 ## ¡Experimenta más!
 
@@ -78,7 +84,7 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 2. Arrastra bloques de "reproducir tono" después de cada "mostrar LEDs"
 3. Elige tonos diferentes para cada emoción
 
-![Ejemplo con bloques de música](../imagenes/02-ejemplo-con-musica.png)
+![Ejemplo con bloques de música](images/02-ejemplo-con-musica.png)
 
 ## ¿Qué has aprendido?
 
@@ -89,12 +95,12 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 
 ## Problemas comunes
 
-**🤔 ¿No funciona un botón?**
-- Asegúrate de que has seleccionado el botón correcto (por ejemplo, A en lugar de B).
-- Comprueba que el bloque "mostrar LEDs" está dentro del bloque del botón.
+> [!HINT] 🤔 ¿No funciona un botón?
+> - Asegúrate de que has seleccionado el botón correcto (por ejemplo, A en lugar de B).
+> - Comprueba que el bloque "mostrar LEDs" está dentro del bloque del botón.
 
-**🤔 ¿La cara no se ve bien?**
-- Revisa que has hecho clic en los LEDs correctos.
+> [!HINT] 🤔 ¿La cara no se ve bien?
+> - Revisa que has hecho clic en los LEDs correctos.
 
 ## ¿Preparado para más aventuras?
 
@@ -102,4 +108,5 @@ Ahora vamos a hacer que cuando aprietes el botón A aparezca una cara feliz.
 
 ---
 
-**💡 Consejo:** ¡Puedes crear las caras que quieras! Prueba a hacer una cara con gafas, con la lengua fuera, o incluso dibujos que no sean caras. ¡Deja volar tu imaginación!
+> [!TIP]
+> ¡Puedes crear las caras que quieras! Prueba a hacer una cara con gafas, con la lengua fuera, o incluso dibujos que no sean caras. ¡Deja volar tu imaginación!

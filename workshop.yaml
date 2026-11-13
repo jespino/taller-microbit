@@ -1,0 +1,73 @@
+# Everything about the workshop that is not module content.
+
+title: "Taller de Programación con micro:bit"
+short_title: "Taller micro:bit"
+description: "Aprende a programar de forma divertida con bloques visuales: luces, botones, sensores, música y tu propio juego. Para niños de 8 a 12 años."
+
+# Where the site is published. Needed for canonical URLs and the sitemap.
+url: https://jespino.github.io/taller-microbit/
+
+# Enables the repository links, and links from modules to other repository files.
+repository: https://github.com/jespino/taller-microbit
+branch: main
+
+image: images/portada.png   # social sharing image, inside modules/images/
+
+author:
+  name: "Jesús Espino"
+  # role: What you do
+  # bio: A sentence or two about you.
+  # avatar: images/author.webp   # inside modules/images/
+  # links:
+  #   - label: GitHub
+  #     url: https://github.com/jespino
+
+# Label and value pairs on the landing page.
+facts:
+  - label: Edad
+    value: De 8 a 12 años
+  - label: Duración
+    value: 2-3 horas
+  - label: Formato
+    value: 6 proyectos prácticos
+  - label: Necesitas
+    value: Un navegador web, y un micro:bit si tienes uno
+
+# Spanish is the default, in NN-name.md; English goes in NN-name.en.md and is
+# published under /en/. `ui` adapts the built-in interface text to the words
+# this workshop uses ("proyecto"/"project", "taller").
+languages:
+  - code: es
+    ui:
+      all_modules: Todos los proyectos
+      back_home: Volver al taller
+      contents: Contenido del taller
+      menu: Proyectos
+      module: Proyecto
+      modules: Proyectos
+      start: ¡Empezar el taller!
+  - code: en
+    title: "Programming Workshop with micro:bit"
+    short_title: "micro:bit Workshop"
+    description: "Learn to program the fun way with visual blocks: lights, buttons, sensors, music and your very own game. For kids aged 8 to 12."
+    facts:
+      - label: Age
+        value: 8 to 12 years old
+      - label: Duration
+        value: 2-3 hours
+      - label: Format
+        value: 6 hands-on projects
+      - label: You'll need
+        value: A web browser, and a micro:bit if you have one
+    ui:
+      all_modules: All projects
+      contents: Workshop projects
+      menu: Projects
+      module: Project
+      modules: Projects
+      start: Start the workshop!
+
+theme:
+  name: kids        # `wsbuilder themes` lists the options
+  # primary: "#621773"   # these replace the theme's own colors
+  # accent: "#e94600"

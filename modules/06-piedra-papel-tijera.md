@@ -1,4 +1,10 @@
-# Proyecto 6: 🎲 ¡A Jugar! - Piedra, Papel o Tijera
+---
+description: Crea tu propio juego de piedra, papel o tijera para llevar a todas partes.
+part: Música y juegos
+duration: 30 min
+---
+
+# 🎲 ¡A Jugar! - Piedra, Papel o Tijera
 
 ¡Vamos a crear el juego más famoso del mundo en tu micro:bit! Podrás jugar con tus amigos en cualquier lugar.
 
@@ -23,7 +29,7 @@ El micro:bit elegirá al azar entre:
 En "al iniciar", añade:
 - Un bloque "mostrar texto" con "¡AGITA PARA JUGAR!"
 
-![Bloque al iniciar con mensaje bienvenida](../imagenes/06-al-iniciar-mensaje-bienvenida.png)
+![Bloque al iniciar con mensaje bienvenida](images/06-al-iniciar-mensaje-bienvenida.png)
 
 ## Paso 2: Programar el juego
 
@@ -37,7 +43,7 @@ En "al iniciar", añade:
 2. Haz clic en "Crear una variable"
 3. Llámala "elección"
 
-![Cómo crear una variable](../imagenes/06-como-crear-variable.png)
+![Cómo crear una variable](images/06-como-crear-variable.png)
 
 ### Programar la lógica:
 Dentro del bloque "al agitar":
@@ -48,7 +54,7 @@ Dentro del bloque "al agitar":
 
 2. **Decidir qué mostrar**:
    - Ve a "Lógica" y arrastra un bloque "si... entonces... si no"
-   - Haz clic en el engranaje ⚙️ para añadir más condiciones (necesitas 3 en total)
+   - Haz clic en el signo más ⊕ para añadir más condiciones (necesitas 3 en total)
 
 La estructura será:
 ```
@@ -60,7 +66,7 @@ si no
     mostrar LEDs (tijera)
 ```
 
-![Programa completo piedra papel tijera](../imagenes/06-programa-completo-ppt.png)
+![Programa completo piedra papel tijera](images/06-programa-completo-ppt.png)
 
 ## Paso 3: ¡Prueba tu juego!
 
@@ -68,7 +74,7 @@ si no
 2. ¿Aparece una de las tres opciones?
 3. Prueba varias veces para ver que cambia
 
-![Simulador con diferentes resultados](../imagenes/06-simulador-diferentes-resultados.png)
+![Simulador con diferentes resultados](images/06-simulador-diferentes-resultados.png)
 
 ## Mejoras divertidas
 
@@ -124,16 +130,16 @@ En "al presionar botón B":
 
 ## Problemas comunes
 
-**🤔 ¿Siempre sale lo mismo?**
-- Revisa que usas "número al azar entre 1 y 3"
-- Asegúrate de que la variable se actualiza cada vez que agitas
+> [!HINT] 🤔 ¿Siempre sale lo mismo?
+> - Revisa que usas "número al azar entre 1 y 3"
+> - Asegúrate de que la variable se actualiza cada vez que agitas
 
-**🤔 ¿No aparece nada al agitar?**
-- Comprueba que el bloque "establecer elección" está dentro de "al agitar"
-- Verifica que las condiciones son "elección = 1", "elección = 2", etc.
+> [!HINT] 🤔 ¿No aparece nada al agitar?
+> - Comprueba que el bloque "establecer elección" está dentro de "al agitar"
+> - Verifica que las condiciones son "elección = 1", "elección = 2", etc.
 
-**🤔 ¿Los dibujos no se ven bien?**
-- Revisa que has hecho clic en los LEDs correctos en cada "mostrar LEDs"
+> [!HINT] 🤔 ¿Los dibujos no se ven bien?
+> - Revisa que has hecho clic en los LEDs correctos en cada "mostrar LEDs"
 
 ## Retos extra
 

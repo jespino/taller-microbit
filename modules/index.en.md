@@ -1,4 +1,4 @@
-![micro:bit Workshop cover](images/portada.png)
+![micro:bit Workshop cover](images/en/portada.png)
 
 Welcome to the fantastic world of programming with the micro:bit!
 

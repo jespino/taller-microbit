@@ -28,7 +28,7 @@ The micro:bit will randomly choose between:
 In "on start", add:
 - A "show string" block with "SHAKE TO PLAY!"
 
-![on start block with a welcome message](images/06-al-iniciar-mensaje-bienvenida.png)
+![on start block with a welcome message](images/en/06-al-iniciar-mensaje-bienvenida.png)
 
 ## Step 2: Program the game
 
@@ -42,7 +42,7 @@ Now comes the fun part! Let's make a random choice appear when you shake it.
 2. Click "Make a Variable..."
 3. Call it "choice"
 
-![How to make a variable](images/06-como-crear-variable.png)
+![How to make a variable](images/en/06-como-crear-variable.png)
 
 ### Program the logic:
 Inside the "on shake" block:
@@ -65,7 +65,7 @@ else
     show leds (scissors)
 ```
 
-![The complete rock paper scissors program](images/06-programa-completo-ppt.png)
+![The complete rock paper scissors program](images/en/06-programa-completo-ppt.png)
 
 ## Step 3: Try your game!
 

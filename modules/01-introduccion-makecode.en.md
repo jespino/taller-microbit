@@ -27,11 +27,11 @@ MakeCode speaks many languages. It usually opens in English, but if it doesn't, 
 4. Choose "English" (or the language you prefer!)
 5. The page will reload in that language
 
-![Language settings menu](images/01-menu-configuracion-idioma.png)
+![Language settings menu](images/en/01-menu-configuracion-idioma.png)
 
-![Choosing a language](images/01-menu-configuracion-idioma-2.png)
+![Choosing a language](images/en/01-menu-configuracion-idioma-2.png)
 
-![MakeCode in another language](images/01-makecode-espanol.png)
+![MakeCode in another language](images/01-makecode-pagina-principal.png)
 
 ## Step 3: Create your first project
 
@@ -39,7 +39,7 @@ MakeCode speaks many languages. It usually opens in English, but if it doesn't, 
 2. Give your project a name, for example: "My first program"
 3. Click "Create"
 
-![New project dialog](images/01-crear-nuevo-proyecto.png)
+![New project dialog](images/en/01-crear-nuevo-proyecto.png)
 
 ## Step 4: Get to know the editor
 
@@ -53,13 +53,13 @@ Here are all the blocks you can use. They're organized in categories with differ
 - 🔵 **Basic**: Basic commands like showing text or pictures
 - 🩷 **Input**: To use buttons, sensors, etc.
 - 🔴 **Music**: To make sounds and music
-- 🟣 **Led**: To control the lights
+- 🟣 **LED**: To control the lights
 - And many more...
 
 ### The workspace (right)
 This is where you drag and connect blocks to build your program.
 
-![The whole MakeCode editor](images/01-interfaz-completa-makecode.png)
+![The whole MakeCode editor](images/en/01-interfaz-completa-makecode.png)
 
 ## Your First "Hello World"
 
@@ -71,14 +71,14 @@ Let's make your first program!
 3. Drag it to the workspace
 4. Snap it inside the "on start" block that's already there
 
-![Dragging the show string block](images/01-arrastrar-bloque-texto.png)
+![Dragging the show string block](images/en/01-arrastrar-bloque-texto.png)
 
 ### Step 2: Write your message
 1. Click the text that says "Hello!" inside the block
 2. Delete it and type "Hello world!"
 3. Look at the simulator! Your message is already scrolling across the virtual micro:bit's screen
 
-![Finished Hello World program](images/01-hola-mundo-completo.png)
+![Finished Hello World program](images/en/01-hola-mundo-completo.png)
 
 ### Step 3: Try your program
 Congratulations! You've made your first program. In the simulator you can see the letters appear one by one on the micro:bit's screen.

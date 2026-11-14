@@ -34,7 +34,7 @@ In the "on start" block:
 1. **Show the music icon**
 2. **Play tone Middle C for 1 beat** (a musical hello)
 
-![on start block for the piano](images/05-al-iniciar-piano-configurado.png)
+![on start block for the piano](images/en/05-al-iniciar-piano-configurado.png)
 
 ## Step 3: Program the basic keys
 
@@ -48,7 +48,7 @@ Let's make the buttons play notes!
 1. Same as button A, but change "C" to "G"
 2. Use a different icon (like a heart)
 
-![Basic A and B piano buttons](images/05-botones-ab-basicos-piano.png)
+![Basic A and B piano buttons](images/en/05-botones-ab-basicos-piano.png)
 
 ## Step 4: Add fun effects
 
@@ -58,7 +58,7 @@ Let's make the micro:bit make sounds when you move it!
 2. Add "play sound giggle" (or whichever sound you like best)
 3. Add "show icon" with a happy face
 
-![Gestures and their sounds](images/05-gestos-notas-correspondientes.png)
+![Gestures and their sounds](images/en/05-gestos-notas-correspondientes.png)
 
 ## Step 5: Play a simple song
 
@@ -75,7 +75,7 @@ Let's program "Happy Birthday"!
    - Play tone E for 2 beats
 4. Add "show icon" with a heart at the end
 
-![Happy Birthday tune](images/05-melodia-cumpleanos.png)
+![Happy Birthday tune](images/en/05-melodia-cumpleanos.png)
 
 ## Step 6: Try your piano!
 

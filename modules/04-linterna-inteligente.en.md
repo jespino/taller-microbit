@@ -29,7 +29,7 @@ The micro:bit can "see" whether it's light or dark using its **light sensor**. I
 1. Go to "Variables"
 2. Make a variable called "mode"
 
-![Creating variables for the flashlight](images/04-crear-variables-linterna.png)
+![Creating variables for the flashlight](images/en/04-crear-variables-linterna.png)
 
 ## Step 2: Getting started
 
@@ -40,7 +40,7 @@ In the "on start" block:
 3. **Pause for 1 second**
 4. **Show number** with the variable "mode"
 
-![The on start block, ready](images/04-al-iniciar-configurado.png)
+![The on start block, ready](images/en/04-al-iniciar-configurado.png)
 
 ## Step 3: Program the automatic mode
 
@@ -65,7 +65,7 @@ if mode = 1 then
 > [!TIP]
 > The "light level" block is in the "Input" category and gives you the sensor's value directly.
 
-![forever block with the automatic mode](images/04-para-siempre-modo-automatico.png)
+![forever block with the automatic mode](images/en/04-para-siempre-modo-automatico.png)
 
 ## Step 4: Change mode with button A
 
@@ -87,7 +87,7 @@ The modes will be:
 - **2** = Disco
 - **3** = Normal flashlight
 
-![Button A changes modes](images/04-boton-a-cambiar-modos.png)
+![Button A changes modes](images/en/04-boton-a-cambiar-modos.png)
 
 ## Step 5: Disco mode
 
@@ -106,7 +106,7 @@ if mode = 2 then
     pause 200 ms
 ```
 
-![Disco mode with three patterns](images/04-modo-discoteca-patrones.png)
+![Disco mode with three patterns](images/en/04-modo-discoteca-patrones.png)
 
 ## Step 6: Normal flashlight mode
 
@@ -120,7 +120,7 @@ if mode = 3 then
     show leds (all on)
 ```
 
-![Normal flashlight mode](images/04-modo-siempre-encendido.png)
+![Normal flashlight mode](images/en/04-modo-siempre-encendido.png)
 
 ## Step 7: Try your flashlight!
 

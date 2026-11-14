@@ -35,7 +35,7 @@ First, let's make a neutral face appear when the micro:bit turns on.
 2. Drag the "show leds" block into the "on start" block
 3. Click the little squares to draw a neutral face:
 
-![show leds block with a neutral face](images/02-cara-neutral-leds.png)
+![show leds block with a neutral face](images/en/02-cara-neutral-leds.png)
 
 ## Step 3: Program button A (happy face)
 
@@ -46,7 +46,7 @@ Now let's make a happy face appear when you press button A.
 3. Go to "Basic" and drag a "show leds" inside the button A block
 4. Draw a happy face by clicking the LEDs:
 
-![Button A program with a happy face](images/02-boton-a-cara-feliz.png)
+![Button A program with a happy face](images/en/02-boton-a-cara-feliz.png)
 
 ## Step 4: Program button B (sad face)
 
@@ -57,7 +57,7 @@ Now button B for the sad face!
 3. Add a "show leds" inside
 4. Draw a sad face:
 
-![The complete program with three blocks](images/02-programa-completo-botones.png)
+![The complete program with three blocks](images/en/02-programa-completo-botones.png)
 
 ## Step 5: Try your program!
 
@@ -83,7 +83,7 @@ Give each face its own sound!
 2. Drag "play tone" blocks after each "show leds"
 3. Choose different tones for each feeling
 
-![Example with music blocks](images/02-ejemplo-con-musica.png)
+![Example with music blocks](images/en/02-ejemplo-con-musica.png)
 
 ## What have you learned?
 

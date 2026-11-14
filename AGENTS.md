@@ -292,8 +292,12 @@ for progress tracking.
   Keep the vocabulary simple, the tone warm, and the steps short and numbered.
 - Spanish (`es`) is the default and English (`en`) the translation, in `NN-name.en.md`.
   Keep both at parity. The English text uses the block names of MakeCode in English
-  ("on start", "show leds", "on shake"...), while the screenshots stay in Spanish, which
-  `index.en.md` tells readers.
+  ("on start", "show leds", "on shake"...).
+- English screenshots live in `modules/images/en/`, with the same file names as the
+  Spanish ones in `modules/images/`. Images with no Spanish text (the simulator, the
+  English home page) are shared. The English versions were made by editing the Spanish
+  images with Codex image generation, taking every MakeCode string from MakeCode's own
+  locale files; when a Spanish screenshot changes, update its English twin too.
 - Images in `index.md` use markdown syntax, not raw HTML, so their paths are rewritten
   for `/en/`. `theme/custom.css` sizes the cover.
 - Modules are called "proyectos" ("projects"), never "ejercicios" or "módulos", in the text and in the

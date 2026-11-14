@@ -21,9 +21,6 @@ In this workshop you will learn to:
 - Lots of curiosity and ready to have fun
 - A micro:bit (if you have one, great! If not, no problem, you can use the simulator)
 
-> [!NOTE]
-> The pictures in this workshop show MakeCode in Spanish. The blocks are the same in English: they have the same shape and color, and they are in the same place.
-
 <!-- modules -->
 
 ## Ready?

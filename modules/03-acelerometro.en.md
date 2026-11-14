@@ -33,7 +33,7 @@ We're going to make a program that:
 
 In the "on start" block, add a "show icon" with this face:
 
-![on start block with a normal face](images/03-al-iniciar-cara-normal.png)
+![on start block with a normal face](images/en/03-al-iniciar-cara-normal.png)
 
 ## Step 2: Notice when you shake the micro:bit
 
@@ -44,7 +44,7 @@ Let's do something fun when you shake the micro:bit!
 3. Drag it to the workspace
 4. Inside it, put a "show icon" with an X:
 
-![on shake block with an X](images/03-al-agitar-cara-mareada.png)
+![on shake block with an X](images/en/03-al-agitar-cara-mareada.png)
 
 ## Step 3: Notice tilting to the left
 
@@ -55,7 +55,7 @@ Now let's make an arrow appear when you tilt the micro:bit.
 3. Change "shake" to "tilt left"
 4. Add a "show leds" with an arrow pointing left:
 
-![tilt left block with an arrow](images/03-inclinar-izquierda-flecha.png)
+![tilt left block with an arrow](images/en/03-inclinar-izquierda-flecha.png)
 
 ## Step 4: Notice tilting to the right
 
@@ -64,7 +64,7 @@ The same for the right!
 1. Add an "on tilt right"
 2. Put in an arrow pointing right:
 
-![All the accelerometer blocks](images/03-todos-bloques-acelerometro.png)
+![All the accelerometer blocks](images/en/03-todos-bloques-acelerometro.png)
 
 ## Step 5: Try your program!
 
@@ -93,7 +93,7 @@ Give each movement its own sound!
    - Left/right: middle tones
    - Normal: soft tone
 
-![Example with sounds added](images/03-ejemplo-con-sonidos.png)
+![Example with sounds added](images/en/03-ejemplo-con-sonidos.png)
 
 ## Fun experiment: Digital dice
 
@@ -104,7 +104,7 @@ Let's make dice that roll when you shake the micro:bit!
 3. Go to "Math" and find "pick random 1 to 6"
 4. Now every time you shake it, a number from 1 to 6 appears!
 
-![Digital dice program](images/03-programa-dados-digital.png)
+![Digital dice program](images/en/03-programa-dados-digital.png)
 
 ## What have you learned?
 

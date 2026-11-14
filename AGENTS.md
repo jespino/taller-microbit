@@ -292,7 +292,8 @@ for progress tracking.
   Keep the vocabulary simple, the tone warm, and the steps short and numbered.
 - Spanish (`es`) is the default and English (`en`) the translation, in `NN-name.en.md`.
   Keep both at parity. The English text uses the block names of MakeCode in English
-  ("on start", "show leds", "on shake"...).
+  ("on start", "show leds", "on shake"...). The one difference: the English project 1 has
+  no step for changing MakeCode's language, since it already opens in English.
 - English screenshots live in `modules/images/en/`, with the same file names as the
   Spanish ones in `modules/images/`. Images with no Spanish text (the simulator, the
   English home page) are shared. The English versions were made by editing the Spanish

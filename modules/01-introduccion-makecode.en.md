@@ -17,23 +17,7 @@ MakeCode is a super cool website where you can program your micro:bit without wr
 
 ![MakeCode home page](images/01-makecode-pagina-principal.png)
 
-## Step 2: Choose the language
-
-MakeCode speaks many languages. It usually opens in English, but if it doesn't, you can change it:
-
-1. Look for the gear icon ⚙️ at the top right of the screen
-2. Click on it
-3. Look for the "Language" option
-4. Choose "English" (or the language you prefer!)
-5. The page will reload in that language
-
-![Language settings menu](images/en/01-menu-configuracion-idioma.png)
-
-![Choosing a language](images/en/01-menu-configuracion-idioma-2.png)
-
-![MakeCode in another language](images/01-makecode-pagina-principal.png)
-
-## Step 3: Create your first project
+## Step 2: Create your first project
 
 1. Click the "New Project" button
 2. Give your project a name, for example: "My first program"
@@ -41,7 +25,7 @@ MakeCode speaks many languages. It usually opens in English, but if it doesn't, 
 
 ![New project dialog](images/en/01-crear-nuevo-proyecto.png)
 
-## Step 4: Get to know the editor
+## Step 3: Get to know the editor
 
 Now you're in the MakeCode editor! Let's look at the important parts:
 
@@ -86,7 +70,6 @@ Congratulations! You've made your first program. In the simulator you can see th
 ## What have you learned?
 
 - ✅ How to open MakeCode
-- ✅ How to change the language
 - ✅ How to create a new project
 - ✅ The main parts of the editor
 - ✅ How to drag and connect blocks
